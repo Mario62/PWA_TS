@@ -1,2 +1,2 @@
 # projekt_do_Jedryki
-Zmieniłbym nazwę projektu
+Zmieniłbym nazwę projektu -tak
