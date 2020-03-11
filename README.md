@@ -1,5 +1,6 @@
 # projekt_do_Jedryki
-Zmieniłbym nazwę projektu -tak<br />
-Zgadzam się i zmienę nazwę. Pewnie wezmę za przykład ciebie i RWD w nazwie<br />
-Nowa linia
-kdjflksdjfk
+
+## Zmieniłbym nazwę projektu -tak <br />
+Wezmę chyba nazwę od ciebie żeby było dobrze
+ * Moje literki PW
+
