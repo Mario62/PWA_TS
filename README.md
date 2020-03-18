@@ -1,7 +1,7 @@
 # projekt_do_Jedryki
 
-## Zmieniłbym nazwę projektu -tak <br />
-Wezmę chyba nazwę od ciebie żeby było dobrze
+## Projekty wzorcowe 
+- https://developers.google.com/web/tools/lighthouse/v3/scoring
 
  * Moje literki PW <br />
 ![VS Code](./docs/qsZ3f6uXK8.gif)
