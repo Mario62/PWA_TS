@@ -5,6 +5,7 @@
  - https://dev.opera.com/blog/pwa-taipei/
  - https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
  - https://medium.com/becode/introduction-to-pwa-set-up-660df31934f2
+ - https://pwa.rocks/
  * Moje literki PW <br />
 ![VS Code](./docs/qsZ3f6uXK8.gif)
 
