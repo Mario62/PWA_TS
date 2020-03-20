@@ -1,5 +1,21 @@
 # Projekt do mgr Jedryki (PWA)
 
+ ## PWA App ( service worker, Vue)
+ - Api
+ - wyszukiwanie
+ - losowanie
+ - panel administracyjny
+ - RegExp
+  
+ - logowanie błędów
+ - logo biblioteki
+ 
+ #### Opcjonalnie
+ - konwersja RPT -> CSV
+ - wysyłanie maili 
+ - *NO Sever app, only one microSevice*  
+ - *Mariusz GUI*
+ 
 ## Projekty wzorcowe 
 - https://developers.google.com/web/tools/lighthouse/v3/scoring
  - https://dev.opera.com/blog/pwa-taipei/
@@ -7,23 +23,7 @@
  - https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
  - https://medium.com/becode/introduction-to-pwa-set-up-660df31934f2
  - https://pwa.rocks/
- * Moje literki PW <br />
  
- # PWA
- - service worker
- - NO Sever app, only one microSevice
- - Api
- - Mariusz GUI
- - wyszukiwanie
- - losowanie
- - panel administracyjny
- - logowanie błędów
- - logo biblioteki
- 
- #### Opcjonalnie
- - konwersja RPT -> CSV
- - RegExp
- - wysyłanie maili
  
  
 ![VS Code](./docs/qsZ3f6uXK8.gif)
