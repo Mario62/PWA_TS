@@ -1,7 +1,5 @@
-# Projekt do mgr Jedryki (PWA)
+# Projekt do mgr Jedryki [PWA Project](https://github.com/Mario62/RWD_TS/projects/1)
 
-## [PWA Project](https://github.com/Mario62/RWD_TS/projects/1)
- 
 ## Projekty wzorcowe 
 - https://developers.google.com/web/tools/lighthouse/v3/scoring
  - https://dev.opera.com/blog/pwa-taipei/
