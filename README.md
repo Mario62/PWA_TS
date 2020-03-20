@@ -8,6 +8,22 @@
  - https://medium.com/becode/introduction-to-pwa-set-up-660df31934f2
  - https://pwa.rocks/
  * Moje literki PW <br />
+ 
+ # PWA
+ - service worker
+ - NO Sever aplicateion, 
+ - Api
+ - Mariusz GUI
+ - wyszukiwanie
+ - losowanie
+ - panel administracyjny
+ 
+ #### Opcjonalnie
+ - konwersja RPT -> CSV
+ - RegExp
+ - wysyłanie maili
+ 
+ 
 ![VS Code](./docs/qsZ3f6uXK8.gif)
 
 
