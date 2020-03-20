@@ -25,8 +25,12 @@
  - https://pwa.rocks/
  
  
- 
-![VS Code](./docs/qsZ3f6uXK8.gif)
+### Inicjalizacja aplikacji Vue
+![vue_crate_app](./docs/vue_crate_app.png)
 
+### Strona powitalna
+![vue_crate_app](./docs/vueIntro.png)
 
+### Mariusz spróbuj dodać zmiany w stronie about
+![vue_crate_app](./docs/mar.png)
 
