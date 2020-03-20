@@ -11,12 +11,14 @@
  
  # PWA
  - service worker
- - NO Sever aplicateion, 
+ - NO Sever app, only one microSevice
  - Api
  - Mariusz GUI
  - wyszukiwanie
  - losowanie
  - panel administracyjny
+ - logowanie błędów
+ - logo biblioteki
  
  #### Opcjonalnie
  - konwersja RPT -> CSV
