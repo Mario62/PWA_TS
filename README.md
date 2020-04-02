@@ -1,9 +1,9 @@
 # Projekt do mgr Jedryki [PWA Project](https://github.com/Mario62/RWD_TS/projects/1)
 
 ![Space_Icon](./docs/space_icon.svg) 
-[https://pwsz.jetbrains.space](https://pwsz.jetbrains.space)
-[Chat](https://pwsz.jetbrains.space/im/group/1Bdbrz1w1iEc)
-[Commits](https://pwsz.jetbrains.space/p/nos/code/vuePWA/commits)
+> [pwsz.jetbrains.space](https://pwsz.jetbrains.space)
+> [Chat](https://pwsz.jetbrains.space/im/group/1Bdbrz1w1iEc)
+> [Commits](https://pwsz.jetbrains.space/p/nos/code/vuePWA/commits)
 
 ## Projekty wzorcowe 
 > https://demos.creative-tim.com/vue-paper-dashboard/#/
@@ -12,5 +12,10 @@
 
 ### Klasy w Vue 
 ![Klasy](./docs/class.png)
+
+#### ToDo
+
+> https://pythex.org
+> https://regex101.com
 
 
