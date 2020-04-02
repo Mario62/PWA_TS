@@ -1,5 +1,4 @@
-# Projekt do mgr Jedryki [PWA Project](https://github.com/Mario62/RWD_TS/projects/1) <a href="https://pwsz.jetbrains.space/p/nos/review">![Space_Icon](./docs/space_icon.svg) </a>
-
+#  <a href="https://pwsz.jetbrains.space/p/nos/review">![Space_Icon](./docs/space_icon.svg) </a> [M-Book PWA Project](https://github.com/Mario62/RWD_TS/projects/1)
 > [pwsz.jetbrains.space](https://pwsz.jetbrains.space)
 > 
 > [Chat](https://pwsz.jetbrains.space/im/group/1Bdbrz1w1iEc)
@@ -20,7 +19,7 @@
 > https://pythex.org
 
 
-```re
+```ts
     (3[12][0-9]{3}).+\\x22([A-Za-z]+.[a-zA-Z]+)\\x22
 ```
 > https://regex101.com
