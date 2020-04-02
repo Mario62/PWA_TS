@@ -10,12 +10,7 @@
  - https://pwa.rocks/
  
  
-### Inicjalizacja aplikacji Vue
-![vue_crate_app](./docs/vue_crate_app.png)
+### Uruchamianie aplikacji np. w WebStorm
+![vue_crate_app](./docs/inteli.png)
 
-### Strona powitalna
-![vue_crate_app](./docs/vueIntro.png)
-
-### Mariusz spróbuj dodać zmiany w stronie about
-![vue_crate_app](./docs/mar.png)
 
