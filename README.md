@@ -1,21 +1,21 @@
 # Projekt do mgr Jedryki [PWA Project](https://github.com/Mario62/RWD_TS/projects/1)
-> in Space
+
+![Space_Icon](./docs/space_icon.svg) 
+> [pwsz.jetbrains.space](https://pwsz.jetbrains.space)
+> [Chat](https://pwsz.jetbrains.space/im/group/1Bdbrz1w1iEc)
+> [Commits](https://pwsz.jetbrains.space/p/nos/code/vuePWA/commits)
 
 ## Projekty wzorcowe 
-- https://developers.google.com/web/tools/lighthouse/v3/scoring
- - https://dev.opera.com/blog/pwa-taipei/
- - HOW to Vue https://www.bacancytechnology.com/blog/pwa-using-vue-cli-3
- - https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
- - https://medium.com/becode/introduction-to-pwa-set-up-660df31934f2
- - https://pwa.rocks/
- 
- 
-### Inicjalizacja aplikacji Vue
-![vue_crate_app](./docs/vue_crate_app.png)
+> https://demos.creative-tim.com/vue-paper-dashboard/#/
+### Uruchamianie aplikacji np. w WebStorm
+![vue_crate_app](./docs/inteli.png)
 
-### Strona powitalna
-![vue_crate_app](./docs/vueIntro.png)
+### Klasy w Vue 
+![Klasy](./docs/class.png)
 
-### Mariusz spróbuj dodać zmiany w stronie about
-![vue_crate_app](./docs/mar.png)
+#### ToDo
+
+> https://pythex.org
+> https://regex101.com
+
 
