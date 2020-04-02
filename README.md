@@ -1,8 +1,9 @@
-# Projekt do mgr Jedryki [PWA Project](https://github.com/Mario62/RWD_TS/projects/1)
-
-![Space_Icon](./docs/space_icon.svg) 
+#  <a href="https://pwsz.jetbrains.space/p/nos/review">![Space_Icon](./docs/space_icon.svg) </a> [M-Book PWA Project](https://github.com/Mario62/RWD_TS/projects/1)
 > [pwsz.jetbrains.space](https://pwsz.jetbrains.space)
+> 
 > [Chat](https://pwsz.jetbrains.space/im/group/1Bdbrz1w1iEc)
+
+
 > [Commits](https://pwsz.jetbrains.space/p/nos/code/vuePWA/commits)
 
 ## Projekty wzorcowe 
@@ -13,9 +14,14 @@
 ### Klasy w Vue 
 ![Klasy](./docs/class.png)
 
-#### ToDo
+#### RegExp
 
 > https://pythex.org
+
+
+```ts
+    (3[12][0-9]{3}).+\\x22([A-Za-z]+.[a-zA-Z]+)\\x22
+```
 > https://regex101.com
 
 
