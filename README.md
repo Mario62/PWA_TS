@@ -4,6 +4,7 @@
 > [Chat](https://pwsz.jetbrains.space/im/group/1Bdbrz1w1iEc)
 #### Koncept
 * Baza Tytułów Książek(ok. 10 MB) jest przechowywana lokalnie 
+* Aplikacja PWA umoąliwia w pełni wyszukiwanie książek offline (po pobraniu bazy oczywiście :D)
 
 > [Commits](https://pwsz.jetbrains.space/p/nos/code/vuePWA/commits)
 
