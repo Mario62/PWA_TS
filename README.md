@@ -8,6 +8,7 @@
 
 ## Projekty wzorcowe 
 > https://demos.creative-tim.com/vue-paper-dashboard/#/
+* diagrams https://www.jetbrains.com/help/idea/markdown.html 
 ### Uruchamianie aplikacji np. w WebStorm
 ![vue_crate_app](./docs/inteli.png)
 
