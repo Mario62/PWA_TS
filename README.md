@@ -1,3 +1,4 @@
+
 #  <a href="https://pwsz.jetbrains.space/p/nos/review">![Space_Icon](./docs/space_icon.svg)</a>[M-Book PWA Project](https://github.com/Mario62/RWD_TS/projects/1)
 > [pwsz.jetbrains.space](https://pwsz.jetbrains.space)
 > 
@@ -10,6 +11,7 @@
 
 ## Projekty wzorcowe 
 > https://demos.creative-tim.com/vue-paper-dashboard/#/
+* diagrams https://www.jetbrains.com/help/idea/markdown.html 
 ### Uruchamianie aplikacji np. w WebStorm
 ![vue_crate_app](./docs/inteli.png)
 
