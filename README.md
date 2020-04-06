@@ -1,11 +1,11 @@
 
 #  <a href="https://pwsz.jetbrains.space/p/nos/review">![Space_Icon](./docs/space_icon.svg)</a>[M-Book PWA Project](https://github.com/Mario62/RWD_TS/projects/1)
 
-#### Koncept
+### Koncept
 * Baza Tytułów Książek (ok. 10 MB) jest przechowywana lokalnie 
 * Aplikacja PWA umoąliwia w pełni wyszukiwanie książek offline (po pierwszym pobraniu bazy oczywiście :D)
 
-## Projekty wzorcowe 
+##### Projekty wzorcowe 
 
 * [**Pierwsza iteracja projektu Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 * https://demos.creative-tim.com/vue-paper-dashboard/#/ Vue MD example
