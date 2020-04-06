@@ -1,13 +1,8 @@
 
 #  <a href="https://pwsz.jetbrains.space/p/nos/review">![Space_Icon](./docs/space_icon.svg)</a>[M-Book PWA Project](https://github.com/Mario62/RWD_TS/projects/1)
-> [pwsz.jetbrains.space](https://pwsz.jetbrains.space)
-> 
-> [Chat](https://pwsz.jetbrains.space/im/group/1Bdbrz1w1iEc)
-
-> [Commits](https://pwsz.jetbrains.space/p/nos/code/vuePWA/commits)
 
 #### Koncept
-* Baza Tytułów Książek(ok. 10 MB) jest przechowywana lokalnie 
+* Baza Tytułów Książek (ok. 10 MB) jest przechowywana lokalnie 
 * Aplikacja PWA umoąliwia w pełni wyszukiwanie książek offline (po pobraniu bazy oczywiście :D)
 
 ## Projekty wzorcowe 
@@ -32,4 +27,9 @@
 ```
 > https://regex101.com
 
+> [pwsz.jetbrains.space](https://pwsz.jetbrains.space)
+> 
+> [Chat](https://pwsz.jetbrains.space/im/group/1Bdbrz1w1iEc)
+
+> [Commits](https://pwsz.jetbrains.space/p/nos/code/vuePWA/commits)
 
