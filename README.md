@@ -7,7 +7,7 @@
 
 ## Projekty wzorcowe 
 
-* [**Pierwsza iteracja projektu Katalogu ZST**](https://katalog.zst-tarnow.pl)
+* [**Pierwsza iteracja projektu Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 > https://demos.creative-tim.com/vue-paper-dashboard/#/
 >
 > diagrams https://www.jetbrains.com/help/idea/markdown.html 
