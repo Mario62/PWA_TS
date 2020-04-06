@@ -6,6 +6,8 @@
 #### Koncept
 * Baza Tytułów Książek(ok. 10 MB) jest przechowywana lokalnie 
 * Aplikacja PWA umoąliwia w pełni wyszukiwanie książek offline (po pobraniu bazy oczywiście :D)
+* [**V1 app**](katalog.zst-tarnow.pl)
+
 
 > [Commits](https://pwsz.jetbrains.space/p/nos/code/vuePWA/commits)
 
