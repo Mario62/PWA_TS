@@ -5,19 +5,19 @@
 * Baza Tytułów Książek (ok. 10 MB) jest przechowywana lokalnie 
 * Aplikacja PWA umoąliwia w pełni wyszukiwanie książek offline (po pierwszym pobraniu bazy oczywiście :D)
 
-##### Projekty wzorcowe 
+### Projekty wzorcowe 
 
 * [**Pierwsza iteracja projektu Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 * https://demos.creative-tim.com/vue-paper-dashboard/#/ Vue MD example
 * https://www.jetbrains.com/help/idea/markdown.html How to use diagrams
 
-### Uruchamianie aplikacji np. w WebStorm
+#### Uruchamianie aplikacji np. w WebStorm
 ![vue_crate_app](./docs/inteli.png)
 
 ### Klasy w Vue 
 ![Klasy](./docs/class.png)
 
-#### RegExp
+## RegExp
 
 > https://pythex.org
 
