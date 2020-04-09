@@ -13,7 +13,7 @@
 
 #### Uruchamianie aplikacji np. w WebStorm
 ![vue_crate_app](./docs/inteli.png)
-
+ 
 ### Klasy w Vue 
 ![Klasy](./docs/class.png)
 
