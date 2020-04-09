@@ -11,6 +11,10 @@
 * https://demos.creative-tim.com/vue-paper-dashboard/#/ Vue MD example
 * https://www.jetbrains.com/help/idea/markdown.html How to use diagrams
 
+## Schemat bazy danych
+![vue_crate_app](./docs/All.png)
+
+
 #### Uruchamianie aplikacji np. w WebStorm
 ![vue_crate_app](./docs/inteli.png)
 
