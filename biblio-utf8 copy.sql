@@ -5,9 +5,9 @@ SET DATESTYLE TO 'European';
 SET DATESTYLE TO 'SQL';
 
 
--- DROP TABLE rejestr;
--- DROP TABLE czytelnicy;
--- DROP TABLE books;
+-- DROP TABLE biblio.rejestr;
+-- DROP TABLE biblio.czytelnicy;
+-- DROP TABLE biblio.books;
 
 CREATE TABLE biblio.czytelnicy
 (	
@@ -50,8 +50,8 @@ CREATE TABLE biblio.rejestr
 	data_zwr	date		DEFAULT CURRENT_DATE + 90,
 	prolongata	boolean		DEFAULT 'false',
         CONSTRAINT      rejestr_pk      PRIMARY KEY(book_id,czyt_id),
-	CONSTRAINT 	czyt_id_fk	FOREIGN KEY(czyt_id)	REFERENCES czytelnicy(czyt_id) 	ON UPDATE CASCADE,
-	CONSTRAINT 	book_id_fk	FOREIGN KEY(book_id)	REFERENCES books(book_id) 	ON UPDATE CASCADE
+	CONSTRAINT 	czyt_id_fk	FOREIGN KEY(czyt_id)	REFERENCES biblio.czytelnicy(czyt_id) 	ON UPDATE CASCADE,
+	CONSTRAINT 	book_id_fk	FOREIGN KEY(book_id)	REFERENCES biblio.books(book_id) 	ON UPDATE CASCADE
 ); 
 -- Ładowanie tablicy czytelnicy
 
