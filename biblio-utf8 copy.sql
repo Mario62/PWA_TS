@@ -79,5 +79,5 @@ VALUES ('Connolly T. and C. Begg','Systemy baz danych. Praktyczne metody projekt
 
 -- Ładowanie tablicy rejestr
 
-INSERT INTO rejestr(book_id,czyt_id)
+INSERT INTO biblio.rejestr(book_id,czyt_id)
 VALUES (1,3);
