@@ -1,5 +1,5 @@
 
-#  <a href="https://pwsz.jetbrains.space/p/nos/review">![Space_Icon](./docs/space_icon.svg)</a>[M-Book Project](https://github.com/Mario62/RWD_TS/projects/1)
+#  <a href="https://pwsz.jetbrains.space/p/nos/review">![Space_Icon](./docs/space_icon.svg)</a>[M-Book](https://github.com/Mario62/RWD_TS/projects/1)
 
 ### Koncept
 * Baza Tytułów Książek (ok. 10 MB) jest przechowywana lokalnie 
@@ -18,6 +18,10 @@
 #### Uruchamianie aplikacji np. w WebStorm
 ![vue_crate_app](./docs/inteli.png)
 
+
+#### Uruchamianie aplikacji np. w WebStorm
+![vue_crate_app_nice](./docs/inteli.png) 
+ 
 ### Klasy w Vue 
 ![Klasy](./docs/class.png)
 
