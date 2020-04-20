@@ -3,7 +3,7 @@
 
 ### Koncept
 * Baza Tytułów Książek (ok. 10 MB) jest przechowywana lokalnie 
-* Aplikacja PWA umożliwia w pełni wyszukiwanie książek offline (po pierwszym pobraniu bazy oczywiście :smirk: :innocent:)
+* Aplikacja PWA umożliwia w pełni wyszukiwanie książek offline (po pierwszym pobraniu bazy oczywiście) :smirk: :innocent:
 
 ### Projekty wzorcowe 
 
