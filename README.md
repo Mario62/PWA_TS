@@ -1,15 +1,20 @@
 
-#  <a href="https://pwsz.jetbrains.space/p/nos/review">![Space_Icon](./docs/space_icon.svg)</a>[M-Book](https://github.com/Mario62/RWD_TS/projects/1)
+#  <a href="https://pwsz.jetbrains.space/p/nos/checklists">![Space_Icon](./docs/space_icon.svg)</a>[M-Book Project](https://pwsz.jetbrains.space/p/nos/checklists)
 
 ### Koncept
 * Baza Tytułów Książek (ok. 10 MB) jest przechowywana lokalnie 
-* Aplikacja PWA umożliwia w pełni wyszukiwanie książek offline (po pierwszym pobraniu bazy oczywiście :D)
+* Aplikacja PWA umożliwia w pełni wyszukiwanie książek offline (po pierwszym pobraniu bazy oczywiście) :smirk: :innocent:
 
 ### Projekty wzorcowe 
 
 * Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 * https://demos.creative-tim.com/vue-paper-dashboard/#/ Vue MD example
 * https://www.jetbrains.com/help/idea/markdown.html How to use diagrams
+* [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/blob/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
+
+## Schemat bazy danych
+![vue_crate_app](./docs/All.png)
+
 
 ## Schemat bazy danych
 ![vue_crate_app](./docs/All.png)
