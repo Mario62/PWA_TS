@@ -41,4 +41,5 @@
 > [Chat](https://pwsz.jetbrains.space/im/group/1Bdbrz1w1iEc)
 
 > [Commits](https://pwsz.jetbrains.space/p/nos/code/vuePWA/commits)
+> [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/blob/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
 
