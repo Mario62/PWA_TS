@@ -10,7 +10,7 @@
 * Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 * https://demos.creative-tim.com/vue-paper-dashboard/#/ Vue MD example
 * https://www.jetbrains.com/help/idea/markdown.html How to use diagrams
-* https://github.com/Mario62/PWA_TS/blob/dev/docs/Nuxtjs-Cheat-Sheet.pdf Nuxt Cheat Sheet
+* [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/blob/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
 
 ## Schemat bazy danych
 ![vue_crate_app](./docs/All.png)
