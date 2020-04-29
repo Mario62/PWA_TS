@@ -43,3 +43,12 @@
 
 > [Commits](https://pwsz.jetbrains.space/p/nos/code/vuePWA/commits)
 
+```puml
+A -> B
+```
+
+```plantuml
+digraph Test {
+A -> B
+}
+```
