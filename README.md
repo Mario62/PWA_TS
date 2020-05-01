@@ -5,7 +5,7 @@
 * Baza Tytułów Książek (ok. 10 MB) jest przechowywana lokalnie 
 * Aplikacja PWA umożliwia w pełni wyszukiwanie książek offline (po pierwszym pobraniu bazy oczywiście) :smirk: :innocent:
 
-### Projekty wzorcowe, pomoce naukowe, pszydasie
+### Projekty wzorcowe, pomoce naukowe, przydasie
 
 * Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 * [Passionate People](https://passionatepeople.io/#our-expertise)
