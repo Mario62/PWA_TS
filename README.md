@@ -9,7 +9,7 @@
 
 * Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 * [Passionate People](https://passionatepeople.io/#our-expertise)
-* [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/blob/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
+* [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/raw/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
 
 ## Schemat bazy danych
 ![vue_crate_app](./docs/All.png)
