@@ -11,6 +11,16 @@
 * [Passionate People](https://passionatepeople.io/#our-expertise)
 * [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/raw/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
 
+
+## Nowa aplikacja oparta na Nuxt.js eg. [Nuxt-Boilerplate](https://github.com/mdbootstrap/MDB-Vue-Nuxt-Boilerplate)
+![vue_crate_app](./docs/Nmosc.png)
+
+
+
+## W momencie robienia commit-a kod jest sprawdzany :)
+![vue_crate_app](./docs/lint.png)
+
+
 ## Schemat bazy danych
 ![vue_crate_app](./docs/All.png)
 
