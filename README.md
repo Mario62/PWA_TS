@@ -8,7 +8,7 @@
 ### Projekty wzorcowe 
 
 * Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
-* https://passionatepeople.io/#our-expertise
+* [Oassionate People](https://passionatepeople.io/#our-expertise)
 * [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/blob/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
 
 ## Schemat bazy danych
