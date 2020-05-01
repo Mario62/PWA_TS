@@ -8,7 +8,7 @@
 ### Projekty wzorcowe 
 
 * Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
-* https://demos.creative-tim.com/vue-paper-dashboard/#/ Vue MD example
+* https://passionatepeople.io/#our-expertise
 * [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/blob/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
 
 ## Schemat bazy danych
