@@ -10,7 +10,12 @@
 * Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 * [Passionate People](https://passionatepeople.io/#our-expertise)
 * [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/raw/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
-
+* [Courses eg. static generation](https://vueschool.io/courses/vuex-for-everyone) https://vueschool.io/courses/nuxtjs-fundamentals
+* Router https://vueschool.io/lessons/linking-between-pages
+* https://vueschool.io/courses/vuejs-components-fundamentals
+* https://vueschool.io/courses/vue-router-for-everyone
+* [ Black Theme Example](https://demos.creative-tim.com/nuxt-black-dashboard-pro/)
+* https://pwa.nuxtjs.org/modules/workbox.html#options
 
 ## Nowa aplikacja oparta na Nuxt.js eg. [Nuxt-Boilerplate](https://github.com/mdbootstrap/MDB-Vue-Nuxt-Boilerplate)
 ![vue_crate_app](./docs/Nmosc.png)
