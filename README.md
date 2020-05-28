@@ -14,9 +14,9 @@
 * Router https://vueschool.io/lessons/linking-between-pages
 * https://vueschool.io/courses/vuejs-components-fundamentals
 * https://vueschool.io/courses/vue-router-for-everyone
-* [ Black Theme Example](https://demos.creative-tim.com/nuxt-black-dashboard-pro/)
-* https://pwa.nuxtjs.org/modules/workbox.html#options
-
+* [Black Theme Example](https://demos.creative-tim.com/nuxt-black-dashboard-pro/)
+* [PWA Nuxt workbook](https://pwa.nuxtjs.org/modules/workbox.html#options)
+* https://github.com/nuxt-community/awesome-nuxt
 ## Nowa aplikacja oparta na Nuxt.js eg. [Nuxt-Boilerplate](https://github.com/mdbootstrap/MDB-Vue-Nuxt-Boilerplate)
 ![vue_crate_app](./docs/Nmosc.png)
 
