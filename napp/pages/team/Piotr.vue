@@ -6,7 +6,7 @@
       <!-- <Moscicki />  -->   
        <client-only placeholder="Loading...">
       <!-- this component will only be rendered on client-side -->
-      <comments />
+      <!-- <comments /> -->
     </client-only> 
 
       <img src="/C.jpg" alt="static image" style="max-width:30vh"/> <br>

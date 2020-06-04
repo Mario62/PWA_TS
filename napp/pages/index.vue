@@ -35,8 +35,10 @@ import Moscicki from '~/components/Moscicki.vue'
 import FileReader from '~/components/FileReader.vue'
 
 export default Vue.extend({
-  data: { 
-    text: "" 
+   data: function () {
+    return {
+      text: "" 
+    }
   },
   components: {
     Logo,
