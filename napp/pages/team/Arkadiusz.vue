@@ -1,29 +1,14 @@
 <template>
   <div class="container">
-
     <div>
-      <logo />
-      
-      <div>
-        <div v-if="$nuxt.isOffline">You are offline</div> 
-        <div v-if="$nuxt.isOnline">You are Online</div> 
-        
-        <nuxt-link to="/">Home page</nuxt-link>
-        <nuxt-link to="/team/Piotr">Piotr</nuxt-link>
-      </div>
-
-      <Moscicki color="K"/>
-      <h1 class="title">VueNuxte</h1>
+      <!-- <logo /> -->
+      <Moscicki />
+      <h1 class="title">VueNuxt</h1>
       <h2 class="subtitle">My sublime Nuxt.js project</h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
       </div>
-
-       <!-- <textarea rows="10" v-model="text"></textarea> -->
-    <br>
-    <!-- <text-reader @load="text = $event"></text-reader> -->
-
     </div>
   </div>
 </template>
@@ -32,15 +17,10 @@
 import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
 import Moscicki from '~/components/Moscicki.vue'
-import FileReader from '~/components/FileReader.vue'
 
 export default Vue.extend({
-  data: { 
-    text: "" 
-  },
   components: {
     Logo,
-    FileReader,
     Moscicki
   }
 })
