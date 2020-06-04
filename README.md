@@ -1,9 +1,23 @@
 
 #  <a href="https://pwsz.jetbrains.space/p/nos/checklists">![Space_Icon](./docs/space_icon.svg)</a>[M-Book Project](https://pwsz.jetbrains.space/p/nos/checklists)
 
+### Decyzje
+* https://vuetifyjs.com/en/getting-started/pre-made-layouts/ (nav or sied bar)
+* https://vue.mdbootstrap.com/#/tables/datatableJSON   (reprezentacja wyników tabela lub karty)
+ 
+https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
+
+## Istotne katalogi app/:
+compotent
+page
+static
+
+
 ### Koncept
 * Baza Tytułów Książek (ok. 10 MB) jest przechowywana lokalnie 
 * Aplikacja PWA umożliwia w pełni wyszukiwanie książek offline (po pierwszym pobraniu bazy oczywiście) :smirk: :innocent:
+
+
 
 ### Projekty wzorcowe, pomoce naukowe, przydasie
 
