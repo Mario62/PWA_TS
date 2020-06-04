@@ -8,7 +8,6 @@
 
 <script lang="ts">
 import Vue from "vue";
-// import fs from 'fs';
 import axios from "axios";
  
 
@@ -19,39 +18,7 @@ export default Vue.extend({
     }
   },
   methods: {   
-    //   showFile() {
 
-    //     this.fs.readFile('file.txt', function (err:any, data:any) {
-    //         if (err) {
-    //             return console.error(err);
-    //         }
-    //         console.log("Asynchronous read: " + data.toString());
-    //     });
-    // },
-    reg()
-    {     
-  // fs.readFileSync('foo.txt','utf8');
-  // fs.readFile(filename, “utf8")
-  // ~/assets/moscicki/Ignaś M.jpg
-      const url = 'foo/bar';
-      // const url = 'https://google.com/foo/bar';
-      // const regex = /^(.+)\/.*$/ig;
-      const regex = /[w+]/ig;
-      const matches = regex.exec(url);
-      
-      // console.info(matches[0]) /* 1 = group index */
-       console.info("matches[0]") /* 1 = group index */
-
-
-      //  const fs = require('fs')
-
-      //   const path = './file.txt'
-
-  
-
-      //     //file exists
-      //   })
-    }
   },
   mounted() { // onload function
  
