@@ -1,30 +1,52 @@
 
 #  <a href="https://pwsz.jetbrains.space/p/nos/checklists">![Space_Icon](./docs/space_icon.svg)</a>[M-Book Project](https://pwsz.jetbrains.space/p/nos/checklists)
 
+### Decyzje
+* https://vuetifyjs.com/en/getting-started/pre-made-layouts/ (nav or sied bar)
+* https://vue.mdbootstrap.com/#/tables/datatableJSON   (reprezentacja wyników tabela lub karty)
+ 
+https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
+
+## Istotne katalogi app/:
+compotent
+page
+static
+
+
 ### Koncept
 * Baza Tytułów Książek (ok. 10 MB) jest przechowywana lokalnie 
 * Aplikacja PWA umożliwia w pełni wyszukiwanie książek offline (po pierwszym pobraniu bazy oczywiście) :smirk: :innocent:
 
+
+
 ### Projekty wzorcowe, pomoce naukowe, przydasie
 
 * Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
+* [Nuxt](https://github.com/nuxt/nuxt.js/tree/dev/examples)
+* https://alligator.io/vuejs/ Example interfaces https://alligator.io/vuejs/using-typescript-with-vue/
 * [Passionate People](https://passionatepeople.io/#our-expertise)
 * [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/raw/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
+* [Courses eg. static generation](https://vueschool.io/courses/vuex-for-everyone) https://vueschool.io/courses/nuxtjs-fundamentals
+* Router https://vueschool.io/lessons/linking-between-pages
+* https://vueschool.io/courses/vuejs-components-fundamentals
+* https://vueschool.io/courses/vue-router-for-everyone
+* [Black Theme Example](https://demos.creative-tim.com/nuxt-black-dashboard-pro/)
+* [PWA Nuxt workbook](https://pwa.nuxtjs.org/modules/workbox.html#options)
+* https://github.com/nuxt-community/awesome-nux
+## GUI
+* https://mdbootstrap.com/docs/jquery/forms/search/
+## Nowa aplikacja oparta na Nuxt.js eg. [Nuxt-Boilerplate](https://github.com/mdbootstrap/MDB-Vue-Nuxt-Boilerplate)
+![vue_crate_app](./docs/Nmosc.png)
+
+
+## W momencie robienia commit-a kod jest sprawdzany :)
+![vue_crate_app](./docs/lint.png)
+
 
 ## Schemat bazy danych
 ![vue_crate_app](./docs/All.png)
 
 
-#### Uruchamianie aplikacji np. w WebStorm
-![vue_crate_app](./docs/inteli.png)
-
-
-#### Uruchamianie aplikacji np. w WebStorm
-![vue_crate_app_nice](./docs/inteli.png) 
-
- 
-### Klasy w Vue 
-![Klasy](./docs/class.png)
 
 ## RegExp
 
@@ -36,35 +58,3 @@
 ```
 > https://regex101.com
 
-> [pwsz.jetbrains.space](https://pwsz.jetbrains.space)
-> 
-> [Chat](https://pwsz.jetbrains.space/im/group/1Bdbrz1w1iEc)
-
-> [Commits](https://pwsz.jetbrains.space/p/nos/code/vuePWA/commits)
-
-```puml
-A -> B
-```
-```mermaid
-classDiagram
-      Animal <|-- Duck
-      Animal <|-- Fish
-      Animal <|-- Zebra
-      Animal : +int age
-      Animal : +String gender
-      Animal: +isMammal()
-      Animal: +mate()
-      class Duck{
-          +String beakColor
-          +swim()
-          +quack()
-      }
-      class Fish{
-          -int sizeInFeet
-          -canEat()
-      }
-      class Zebra{
-          +bool is_wild
-          +run()
-      }
-```
