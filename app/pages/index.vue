@@ -10,7 +10,7 @@
 
         <!-- <nuxt-link to="/">Home Page</nuxt-link>          -->
         <nuxt-link v-for="user in users" v-bind:key="user.name"
-                   v-bind:to="'team/' + user.name"> 
+                   :to="'team/' + user.name"> 
           {{ user.name }}
         </nuxt-link>
       </div>
@@ -42,7 +42,7 @@ export default Vue.extend({
     return {
       text: "",
       users: [
-        { name: "Arkadiusz", module: "Arkadiusz.vue" },
+        { name: "Arkadiusz" },
         { name: "Mariusz" },
         { name: "Piotr" }  
       ]

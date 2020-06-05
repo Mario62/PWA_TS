@@ -14,11 +14,14 @@ import axios from "axios";
 export default Vue.extend({
  data: function () {
     return {
-      books: ""
+      books: "",
     }
   },
   methods: {   
-
+    bar()
+    {
+      return;
+    }
   },
   mounted() { // onload function
  
@@ -36,7 +39,7 @@ export default Vue.extend({
         console.info('It took ' + (b - a) + ' ms.');
         
         var a = performance.now();
-        console.log( "First 'Mickiewicz' at: " + /Mickiewicz/.exec(this.books) || '{}'  )           
+        console.log( "First 'Mickiewicz' at: " + /Mickiewicz./g.exec(this.books) || '{}'  )           
         var b = performance.now();
         console.info('It took ' + (b - a) + ' ms.');
       }
