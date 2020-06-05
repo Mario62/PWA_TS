@@ -8,7 +8,10 @@
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
+        
       </div>
+      <table />
+      <regex />
     </div>
   </div>
 </template>
@@ -17,10 +20,14 @@
 import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
 import Moscicki from '~/components/Moscicki.vue'
+import Table from "~/components/Table.vue"
+import Regex from "~/components/Regex.vue";
 
 export default Vue.extend({
   components: {
+    Regex,
     Logo,
+    Table,
     Moscicki
   }
 })

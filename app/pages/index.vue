@@ -14,7 +14,7 @@
           {{ user.name }}
         </nuxt-link>
       </div>
-
+      <CardPlugin />
       <Moscicki color="K"/>
       <h1 class="title">VueNuxte</h1>
       <h2 class="subtitle">My sublime Nuxt.js project</h2>
@@ -36,6 +36,11 @@ import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
 import Moscicki from '~/components/Moscicki.vue'
 import FileReader from '~/components/FileReader.vue'
+import { CardPlugin, TablePlugin } from 'bootstrap-vue'
+
+// Add the plugins to Vue
+Vue.use(CardPlugin)
+Vue.use(TablePlugin)
 
 export default Vue.extend({
    data: function () {
