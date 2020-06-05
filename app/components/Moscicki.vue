@@ -1,15 +1,17 @@
 <template>
 <div>
-  <img src="~/assets/moscicki/B.jpg" class="NuxtLogo" />
+  <!-- <img src="~/assets/moscicki/B.jpg" class="NuxtLogo" /> -->
+  <img src="~/assets/moscicki/B.jpg"  class="NuxtLogo" />
   <!-- <p> {{ books }} </p> -->
 </div>
 </template>
 
-<script>
+<script lang="ts">
+
 export default {
   data: function () {
     return {
-      src: "~/assets/moscicki/Ignaś M.jpg",
+      source: "~/assets/moscicki/M.jpg",
       path: "~/assets/moscicki/",
       filename: "Ignaś ",
       color: "M",
@@ -22,7 +24,6 @@ export default {
       return "~/assets/moscicki/B.jpg";
     }
   }  
-
 }
 </script>
 

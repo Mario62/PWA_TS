@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <!-- <logo /> -->
-      <Moscicki />
+      <Moscicki color="Y"/>
       <h1 class="title">VueNuxt</h1>
       <h2 class="subtitle">My sublime Nuxt.js project</h2>
       <div class="links">
@@ -16,12 +16,12 @@
 <script lang="ts">
 import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
-// import Moscicki from '~/components/Moscicki.vue'
+import Moscicki from '~/components/Moscicki.vue'
 
 export default Vue.extend({
   components: {
-    Logo
-    // Moscicki
+    Logo,
+    Moscicki
   }
 })
 </script>

@@ -7,9 +7,12 @@
       <div>
         <div v-if="$nuxt.isOffline">You are offline</div> 
         <div v-if="$nuxt.isOnline">You are Online</div> 
-        
-        <nuxt-link to="/">Home page</nuxt-link>
-        <nuxt-link to="/team/Piotr">Piotr</nuxt-link>
+
+        <!-- <nuxt-link to="/">Home Page</nuxt-link>          -->
+        <nuxt-link v-for="user in users" v-bind:key="user.name"
+                   v-bind:to="'team/' + user.name"> 
+          {{ user.name }}
+        </nuxt-link>
       </div>
 
       <Moscicki color="K"/>
@@ -37,7 +40,12 @@ import FileReader from '~/components/FileReader.vue'
 export default Vue.extend({
    data: function () {
     return {
-      text: "" 
+      text: "",
+      users: [
+        { name: "Arkadiusz", module: "Arkadiusz.vue" },
+        { name: "Mariusz" },
+        { name: "Piotr" }  
+      ]
     }
   },
   components: {
