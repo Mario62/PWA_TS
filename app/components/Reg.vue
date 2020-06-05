@@ -48,7 +48,7 @@ export default Vue.extend({
       //  axios.get("/db.txt").then(res => {
       // this.books = res.data;
 
-    });
+    }); 
   } 
 })
 </script>
