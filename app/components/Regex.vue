@@ -12,7 +12,7 @@ import axios from 'axios'
 export default {
   data: function() {
     return {
-      books: ''
+      books: null
     }
   },
   methods: {
@@ -44,7 +44,7 @@ export default {
               this.books
             ) || '{}'
         )
-    }) // Mario62 tu był błąd brakowało nawiasu :)
+    }) // Mario62 tu był błąd brakowało nawiasu :) Sprawdź w konsoli co się wypiszło (ile ISBNów)
   }
 }
 </script>
