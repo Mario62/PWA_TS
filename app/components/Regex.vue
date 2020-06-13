@@ -1,28 +1,31 @@
 <template>
-    <div>
-        <h2> ISBN </h2>
-        {{books}}
-    </div>
- </template>
+  <div>
+    <h2>ISBN</h2>
+    {{ books }}
+  </div>
+</template>
 
 <script lang="ts">
+import Vue from "vue";
+import axios from "axios";
+
 export default {
     data: function () {
     return {
       books: "",
     }
   },
-mounted(){
-     axios
-    .get("/02.2020.min.csv")
-    .then(res =>
-    {
-      this.books = res.data;
+  mounted(){
+      axios
+      .get("/02.2020.min.csv")
+      .then(res =>
+      {
+        this.books = res.data;
 
-      if (this.books !== null)
-    console.log( "First 'ISBN' at: " + /920\s*a([0-9]{1,5}\-[0-9]{1,7}[-\ ]{0,2}[0-9]{1,6}\-[0-9X]{1,6}-[0-9X]{1})[\s.]+/g.exec(this.books) || '{}'  )
-    }
-},
+        if (this.books !== null)
+      console.log( "First 'ISBN' at: " + /920\s*a([0-9]{1,5}\-[0-9]{1,7}[-\ ]{0,2}[0-9]{1,6}\-[0-9X]{1,6}-[0-9X]{1})[\s.]+/g.exec(this.books) || '{}'  )
+      }
+  },
     methodes:{
         //     if (!empty($value[$n['OPIS_DANE']])) {
         // if (preg_match('/920\s*a([0-9]{1,5}\-[0-9]{1,7}[-\ ]{0,2}[0-9]{1,6}\-[0-9X]{1,6}-[0-9X]{1})[\s.]+/', $value[$n['OPIS_DANE']], $isbn))
