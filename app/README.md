@@ -11,7 +11,10 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 
+<<<<<<< HEAD
 # build for production and launch server
+=======
+>>>>>>> Mariusz
 $ yarn build
 $ yarn start
 
