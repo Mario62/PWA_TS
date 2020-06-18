@@ -42,6 +42,8 @@
 ```
 > https://regex101.com
 
+[StackOverflow przykład](https://stackoverflow.com/questions/2013124/regex-matching-up-to-the-first-occurrence-of-a-character)
+
 
 ### Decyzje
 * https://vuetifyjs.com/en/getting-started/pre-made-layouts/ (nav or sied bar)
