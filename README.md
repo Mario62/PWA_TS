@@ -40,6 +40,10 @@
 ```ts
     (3[12][0-9]{3}).+\\x22([A-Za-z]+.[a-zA-Z]+)\\x22
 ```
+
+```ts
+    ^(\d{4,6})\|[^\|]*
+```
 > https://regex101.com
 
 [StackOverflow przykład](https://stackoverflow.com/questions/2013124/regex-matching-up-to-the-first-occurrence-of-a-character)
