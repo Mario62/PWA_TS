@@ -10,6 +10,14 @@
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
         
       </div>
+      <div class="contener">
+        <div class="row">Yo</div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          Lorem ipsum
+        </div>
+      </div>
       <table />
       <regex />
     </div>
@@ -41,6 +49,10 @@ export default Vue.extend({
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.row {
+  background-color: aquamarine;
 }
 
 .title {
