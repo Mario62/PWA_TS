@@ -15,6 +15,7 @@
         </nuxt-link>
       </div>
       <CardPlugin />
+      
       <Moscicki color="K"/>
       <h1 class="title">VueNuxte</h1>
       <h2 class="subtitle">My sublime Nuxt.js project</h2>
