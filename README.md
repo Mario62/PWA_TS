@@ -83,9 +83,10 @@ static
     (3[12][0-9]{3}).+\\x22([A-Za-z]+.[a-zA-Z]+)\\x22
 ```
 > https://regex101.com
-
+http://namiekko.pl/2016/12/09/wyrazenia-regularne-dla-nieprogramistow/
 
 [StackOverflow przykład](https://stackoverflow.com/questions/2013124/regex-matching-up-to-the-first-occurrence-of-a-character)
+https://linuxexpert.pl/posts/2694/perl-komentarze-w-wyrazeniach-regularnych/
 
 
 ### Decyzje
