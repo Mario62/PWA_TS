@@ -1,6 +1,8 @@
 
 #  <a href="https://pwsz.jetbrains.space/p/nos/checklists">![Space_Icon](./docs/space_icon.svg)</a>[M-Book Project](https://pwsz.jetbrains.space/p/nos/checklists)
 
+![Authors](docs/authors.png)
+
 
 ### Decyzje
 * https://vuetifyjs.com/en/getting-started/pre-made-layouts/ (nav or sied bar)
