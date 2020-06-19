@@ -78,8 +78,9 @@ static
     (3[12][0-9]{3}).+\\x22([A-Za-z]+.[a-zA-Z]+)\\x22
 ```
 
+Wyszukuje pozycje książkowe które mają uzupełnione wszystkie kategorie:
 ```ts
-    ^(\d{4,6})\|[^\|]*
+    ^(\d{4,6})\|([^\|]+)\|([^\|]+)\|([^\|]+)\|([^\|]+)\|([^\|]+)\|([^\|]+)\|([^\|]+)\|([^\n]+)
 ```
 > https://regex101.com
 
