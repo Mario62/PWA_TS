@@ -7,6 +7,13 @@
       <div>
         <div v-if="$nuxt.isOffline">You are offline</div> 
         <div v-if="$nuxt.isOnline">You are Online</div> 
+<<<<<<< HEAD
+        
+        <nuxt-link to="/">Home page</nuxt-link>
+        <nuxt-link to="/team/Piotr">Piotr</nuxt-link>
+      </div>
+
+=======
 
         <!-- <nuxt-link to="/">Home Page</nuxt-link>          -->
         <nuxt-link v-for="user in users" v-bind:key="user.name"
@@ -16,6 +23,7 @@
       </div>
       <CardPlugin />
       
+>>>>>>> Mariusz
       <Moscicki color="K"/>
       <h1 class="title">VueNuxte</h1>
       <h2 class="subtitle">My sublime Nuxt.js project</h2>
@@ -37,21 +45,28 @@ import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
 import Moscicki from '~/components/Moscicki.vue'
 import FileReader from '~/components/FileReader.vue'
+<<<<<<< HEAD
+=======
 import { CardPlugin, TablePlugin } from 'bootstrap-vue'
 
 // Add the plugins to Vue
 Vue.use(CardPlugin)
 Vue.use(TablePlugin)
+>>>>>>> Mariusz
 
 export default Vue.extend({
    data: function () {
     return {
+<<<<<<< HEAD
+      text: "" 
+=======
       text: "",
       users: [
         { name: "Arkadiusz" },
         { name: "Mariusz" },
         { name: "Piotr" }  
       ]
+>>>>>>> Mariusz
     }
   },
   components: {
