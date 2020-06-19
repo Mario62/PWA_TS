@@ -60,18 +60,11 @@ static
 ![vue_crate_app](./docs/All.png)
 
 
-## Schemat bazy danych
-![vue_crate_app](./docs/All.png)
 
 
 #### Uruchamianie aplikacji np. w WebStorm
 ![vue_crate_app](./docs/inteli.png)
 
-
-#### Uruchamianie aplikacji np. w WebStorm
-![vue_crate_app_nice](./docs/inteli.png) 
-
- 
 ### Klasy w Vue 
 ![Klasy](./docs/class.png)
 
@@ -83,10 +76,14 @@ static
     (3[12][0-9]{3}).+\\x22([A-Za-z]+.[a-zA-Z]+)\\x22
 ```
 > https://regex101.com
-http://namiekko.pl/2016/12/09/wyrazenia-regularne-dla-nieprogramistow/
 
 [StackOverflow przykład](https://stackoverflow.com/questions/2013124/regex-matching-up-to-the-first-occurrence-of-a-character)
-https://linuxexpert.pl/posts/2694/perl-komentarze-w-wyrazeniach-regularnych/
+
+[WYRAŻENIA REGULARNE DLA NIEPROGRAMISTÓW](http://namiekko.pl/2016/12/09/wyrazenia-regularne-dla-nieprogramistow)
+
+[perl komentarze w wyrazeniach regularnych](https://linuxexpert.pl/posts/2694/perl-komentarze-w-wyrazeniach-regularnych)
+
+[Decyzje]
 
 
 ### Decyzje
