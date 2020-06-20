@@ -2,19 +2,12 @@
   <div class="container">
     <div>
       <!-- <logo /> -->
-<<<<<<< HEAD
-      <Moscicki />
-=======
       <Moscicki color="Y"/>
->>>>>>> Mariusz
       <h1 class="title">VueNuxt</h1>
       <h2 class="subtitle">My sublime Nuxt.js project</h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-<<<<<<< HEAD
-      </div>
-=======
         
       </div>
       <div class="contener">
@@ -27,33 +20,23 @@
       </div>
       <table />
       <regex />
->>>>>>> Mariusz
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import Logo from '~/components/Logo.vue'
-<<<<<<< HEAD
-// import Moscicki from '~/components/Moscicki.vue'
-
-export default Vue.extend({
-  components: {
-    Logo
-    // Moscicki
-=======
-import Moscicki from '~/components/Moscicki.vue'
-import Table from "~/components/Table.vue"
-import Regex from "~/components/Regex.vue";
+//import Logo from '../../components/Logo.vue'
+import Moscicki from '../../components/Moscicki.vue'
+import Table from "../../components/Table.vue"
+import Regex from "../../components/Regex.vue";
 
 export default Vue.extend({
   components: {
     Regex,
-    Logo,
+    //Logo,
     Table,
     Moscicki
->>>>>>> Mariusz
   }
 })
 </script>
@@ -68,13 +51,10 @@ export default Vue.extend({
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
 .row {
   background-color: aquamarine;
 }
 
->>>>>>> Mariusz
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
