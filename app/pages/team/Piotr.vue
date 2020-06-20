@@ -3,21 +3,22 @@
     <div>
       <!-- <logo /> -->
       <!-- <Moscicki />  -->
-      <client-only placeholder="Loading...">
-        <!-- this component will only be rendered on client-side -->
-        <!-- <comments /> -->
-        <div>
-          <b-spinner type="grow" label="Loading..."></b-spinner>
-        </div>
-      </client-only>
+
+      <!-- this component will only be rendered on client-side -->
+      <!-- <comments /> -->
 
       <img src="/C.jpg" alt="static image" style="max-width:30vh" />
       <br />
       <NLink to="/">Home Page</NLink>
 
+      <b-spinner type="grow" label="Loading..."></b-spinner>
+
       <search />
-      <books />
-      <reg />
+
+      <client-only placeholder="Loading...">
+        <books />
+        <reg />
+      </client-only>
 
       <!-- <div class="container"> -->
       <!-- <h2>Users</h2>

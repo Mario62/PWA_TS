@@ -1,7 +1,6 @@
 <template>
   <div>
-    Tabela tu ma być
-    <table />
+    <Table />
   </div>
 </template>
 
