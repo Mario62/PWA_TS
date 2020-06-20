@@ -1,10 +1,15 @@
 <template>
   <v-app id="inspire">
-    <v-navigation-drawer
-      v-model="drawer"
-      app
-      clipped
-    >
+    <div>
+      <!-- Image and text -->
+      <b-navbar variant="faded" type="light">
+        <b-navbar-brand href="#">
+          <img src="https://placekitten.com/g/30/30" class="d-inline-block align-top" alt="Kitten" />
+          BootstrapVue
+        </b-navbar-brand>
+      </b-navbar>
+    </div>
+    <v-navigation-drawer v-model="drawer" app clipped>
       <v-list dense>
         <v-list-item link>
           <v-list-item-action>
@@ -25,33 +30,18 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar
-      app
-      clipped-left
-    >
+    <v-app-bar app clipped-left>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>Application</v-toolbar-title>
     </v-app-bar>
-
+    <!-- <nuxt /> -->
     <v-content>
-      <v-container
-        class="fill-height"
-        fluid
-      >
-        <v-row
-          align="center"
-          justify="center"
-        >
+      <v-container class="fill-height" fluid>
+        <v-row align="center" justify="center">
           <v-col class="shrink">
             <v-tooltip right>
               <template v-slot:activator="{ on }">
-                <v-btn
-                  :href="source"
-                  icon
-                  large
-                  target="_blank"
-                  v-on="on"
-                >
+                <v-btn :href="source" icon large target="_blank" v-on="on">
                   <v-icon large>mdi-code-tags</v-icon>
                 </v-btn>
               </template>
@@ -69,17 +59,17 @@
 </template>
 
 <script>
-  export default {
-    props: {
-      source: String,
-    },
+export default {
+  props: {
+    source: String
+  },
 
-    data: () => ({
-      drawer: null,
-    }),
+  data: () => ({
+    drawer: null
+  }),
 
-    created () {
-      this.$vuetify.theme.dark = true
-    },
+  created() {
+    this.$vuetify.theme.dark = true
   }
+}
 </script>

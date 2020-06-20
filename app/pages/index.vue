@@ -43,6 +43,7 @@ Vue.use(CardPlugin)
 Vue.use(TablePlugin)
 
 export default Vue.extend({
+  layout: 'intro',
   data: function() {
     return {
       text: '',
