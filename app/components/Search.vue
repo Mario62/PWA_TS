@@ -42,7 +42,7 @@ export default Vue.extend({
     //   // this.$store
     //   console.log(this.$store.state.count) // -> 1
     //   // this.$store.dispatch('loadData')
-    //   // alert(Regex.getRandom)
+    // alert(Regex.getRandom)
     //   // alert(message)
     // },
     f() {

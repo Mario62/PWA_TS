@@ -25,7 +25,7 @@ import TempTable from '~/components/TempTable.vue'
 import Regex from '~/components/Regex.vue'
 
 export default Vue.extend({
-  layout: 'intro',
+  
   components: {
     Regex,
     Logo,
