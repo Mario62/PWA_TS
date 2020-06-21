@@ -1,5 +1,7 @@
 <template>
   <div>
+    <button @click="$store.commit('increment')">{{ $store.state.counter }}</button>
+    <br />
     <!-- <nuxt /> -->
     <nuxt keep-alive />
   </div>

@@ -42,15 +42,25 @@ import axios from 'axios'
 import Search from '~/components/Search.vue'
 import Reg from '~/components/Reg.vue'
 import Books from '~/components/Books.vue'
+import { mapState } from 'vuex'
 
 export default Vue.extend({
-  layout: 'error',
+  // layout: 'error',
   components: {
     Moscicki,
     Search,
     Logo,
     Reg,
     Books
+  },
+  fetch({ store }) {
+    store.commit('increment')
+  },
+  computed: mapState(['counter']),
+  methods: {
+    increment() {
+      this.$store.commit('increment')
+    }
   }
 })
 </script>
