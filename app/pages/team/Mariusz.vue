@@ -2,21 +2,18 @@
   <div class="container">
     <div>
       <!-- <logo /> -->
-      <Moscicki color="Y"/>
+      <Moscicki color="Y" />
       <h1 class="title">VueNuxt</h1>
       <h2 class="subtitle">My sublime Nuxt.js project</h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-        
       </div>
       <div class="contener">
         <div class="row">Yo</div>
       </div>
       <div class="card">
-        <div class="card-body">
-          Lorem ipsum
-        </div>
+        <div class="card-body">Lorem ipsum</div>
       </div>
       <table />
       <regex />
@@ -26,12 +23,13 @@
 
 <script lang="ts">
 import Vue from 'vue'
-//import Logo from '../../components/Logo.vue'
-import Moscicki from '../../components/Moscicki.vue'
-import Table from "../../components/Table.vue"
-import Regex from "../../components/Regex.vue";
+import Logo from '~/components/Logo.vue'
+import Moscicki from '~/components/Moscicki.vue'
+import Table from '~/components/Table.vue'
+import Regex from '~/components/Regex.vue'
 
 export default Vue.extend({
+  layout: 'red',
   components: {
     Regex,
     //Logo,

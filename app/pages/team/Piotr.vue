@@ -1,34 +1,35 @@
 <template>
   <div class="container">
-    
     <div>
       <!-- <logo /> -->
-      <!-- <Moscicki />  -->   
-       <client-only placeholder="Loading...">
+      <!-- <Moscicki />  -->
+
       <!-- this component will only be rendered on client-side -->
       <!-- <comments /> -->
-    </client-only> 
 
-      <img src="/C.jpg" alt="static image" style="max-width:30vh"/> <br>
-      <NLink to="/">
-        Home Page
-      </NLink>
+      <img src="/C.jpg" alt="static image" style="max-width:30vh" />
+      <br />
+      <NLink to="/">Home Page</NLink>
+
+      <b-spinner type="grow" label="Loading..."></b-spinner>
+
       <search />
 
-      <reg />
+      <client-only placeholder="Loading...">
+        <books />
+        <reg />
+      </client-only>
 
-
-      
-     <!-- <div class="container"> -->
-    <!-- <h2>Users</h2>
+      <!-- <div class="container"> -->
+      <!-- <h2>Users</h2>
     <ul class="users">
       <li v-for="user in users" :key="user.id">
         <NuxtLink :to="'/users/'+user.id">
           {{ user.name }}
         </NuxtLink>
       </li>
-    </ul> -->
-  <!-- </div> -->
+      </ul>-->
+      <!-- </div> -->
     </div>
   </div>
 </template>
@@ -38,15 +39,18 @@ import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
 import Moscicki from '~/components/Moscicki.vue'
 import axios from 'axios'
-import Search from '~/components/Search.vue';
-import Reg from '~/components/Reg.vue';
+import Search from '~/components/Search.vue'
+import Reg from '~/components/Reg.vue'
+import Books from '~/components/Books.vue'
 
 export default Vue.extend({
+  layout: 'error',
   components: {
     Moscicki,
     Search,
     Logo,
-    Reg
+    Reg,
+    Books
   }
 })
 </script>

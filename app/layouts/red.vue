@@ -1,7 +1,6 @@
 <template>
   <div>
-    <!-- <nuxt /> -->
-    <nuxt keep-alive />
+    <nuxt>words</nuxt>
   </div>
 </template>
 

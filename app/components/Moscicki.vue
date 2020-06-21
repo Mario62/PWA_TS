@@ -1,6 +1,7 @@
 <template>
 <div>
-  <img src="~/assets/moscicki/B.jpg" class="NuxtLogo" />
+  <!-- <img src="~/assets/moscicki/B.jpg" class="NuxtLogo" /> -->
+  <img src="~/assets/moscicki/B.jpg"  class="NuxtLogo" />
   <!-- <p> {{ books }} </p> -->
 </div>
 </template>
