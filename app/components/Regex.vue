@@ -112,8 +112,8 @@ export default Vue.extend({
     // console.warn(found[1])
 
     //codesandbox.io/s/github/nuxt/nuxt.js/tree/dev/examples/vuex-store?from-embed=&file=/pages/index.vue
-    // https:
-    // let result
+    // https: 
+    let result
 
     // while ((result = regexp.exec(str))) {
     //   console.log(`Found ${result[0]} at position ${result.index}`)
