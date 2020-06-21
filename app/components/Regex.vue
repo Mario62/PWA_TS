@@ -72,16 +72,6 @@ export default Vue.extend({
     console.warn(found)
     // console.warn(found(0))
     // console.warn(found[1])
-    let str = 'More about JavaScript at https://javascript.info'
-    let regexp = /javascript/gi
-    //codesandbox.io/s/github/nuxt/nuxt.js/tree/dev/examples/vuex-store?from-embed=&file=/pages/index.vue
-    https: let result
-
-    while ((result = regexp.exec(str))) {
-      console.log(`Found ${result[0]} at position ${result.index}`)
-      // Found JavaScript at position 11, then
-      // Found javascript at position 33
-    }
 
     // console.log(
     //   "First 'ISBN' at: " +
