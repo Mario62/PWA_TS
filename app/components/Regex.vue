@@ -75,7 +75,8 @@ export default Vue.extend({
     let str = 'More about JavaScript at https://javascript.info'
     let regexp = /javascript/gi
     //codesandbox.io/s/github/nuxt/nuxt.js/tree/dev/examples/vuex-store?from-embed=&file=/pages/index.vue
-    https: let result
+    // https: 
+    let result
 
     while ((result = regexp.exec(str))) {
       console.log(`Found ${result[0]} at position ${result.index}`)

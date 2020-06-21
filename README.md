@@ -26,9 +26,9 @@ static
 * Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 
 * [Vue Mastery](https://medium.com/vue-mastery)
+* [Nuxt](https://github.com/nuxt/nuxt.js/tree/dev/examples)
 * [Passionate People](https://passionatepeople.io/#our-expertise)
 * [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/raw/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
-* [Nuxt](https://github.com/nuxt/nuxt.js/tree/dev/examples)
 * https://alligator.io/vuejs/ Example interfaces https://alligator.io/vuejs/using-typescript-with-vue/
 
 * [Courses eg. static generation](https://vueschool.io/courses/vuex-for-everyone) https://vueschool.io/courses/nuxtjs-fundamentals
