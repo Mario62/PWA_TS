@@ -1,6 +1,7 @@
 <template>
   <div>
     <h2>Random book</h2>
+    <b-button size="sm" class="my-2 my-sm-0" type="button">Random</b-button>
     <td>
       <tr></tr>
     </td>
@@ -86,37 +87,61 @@ export default Vue.extend({
       .catch((error) => {
         console.warn(error)
       })
-    var bookRegExp = /(\d{1,6})\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\d]+)/g
+    // var bookRegExp = /(\d{1,6})\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\d]+)/g
 
-    var tx =
-      '11560|001  amol2000080  a884-1+884(091)-1"18"A/Z100  a5938245  aKonrad WallenrodcAdam Mickiewicz250  aWyd. 3 zm.260  aWrocławbZakład Narodowy im. Ossolińskichc1991300  aCLXXIII, [1], 116, [2] s.c17 cm440  a258xISSN 0208-4104vnr 72500  aKole|Mickiewicz, Adam (1798-1855).|Konrad Wallenrod|Zakład Narodowy im. Ossoliński|Wrocław|1991|lektury|Lektury11561|001  amol2000080  a830-3100  a5982245  aCierpienia młodego WerteracJohann Wolfgang Goethe ; przeł. [z niem.] Leopold Staff260  aBydgoszczb"Arcanum"c[1990]300  a91, [1] s.c21 cm440  a294xv500  aTyt. oryg.: Die Leiden des jungen Werthers|Goethe, Johann Wolfgang von (1749-1832).|Cierpienia młodego Wertera|"Arcanum"|Bydgoszcz|[1990]|lektury|Lektury11561|001  amol2000080  a830-3100  a5982245  aCierpienia młodego WerteracJohann Wolfgang Goethe ; przeł. [z niem.] Leopold Staff260  aBydgoszczb"Arcanum"c[1990]300  a91, [1] s.c21 cm440  a294xv500  aTyt. oryg.: Die Leiden des jungen Werthers'
-    let found = bookRegExp.exec(tx)
-    this.book = found[0]!
-    this.book = this.items = [
-      {
-        OPIS_ID: found[1],
-        OPIS_DANE: found[3],
-        OPIS_AUTOR: found[4],
-        OPIS_TYTUL: found[5],
-        OPIS_WYDAWCA: found[6],
-        OPIS_MWYD: found[7],
-        OPIS_RWYD: found[8],
-        ZKS_SYGNAT: found[9],
-        RKS_TEKST: found[0]
-      }
-    ]
+    // var tx =
+    //   '11560|001  amol2000080  a884-1+884(091)-1"18"A/Z100  a5938245  aKonrad WallenrodcAdam Mickiewicz250  aWyd. 3 zm.260  aWrocławbZakład Narodowy im. Ossolińskichc1991300  aCLXXIII, [1], 116, [2] s.c17 cm440  a258xISSN 0208-4104vnr 72500  aKole|Mickiewicz, Adam (1798-1855).|Konrad Wallenrod|Zakład Narodowy im. Ossoliński|Wrocław|1991|lektury|Lektury11561|001  amol2000080  a830-3100  a5982245  aCierpienia młodego WerteracJohann Wolfgang Goethe ; przeł. [z niem.] Leopold Staff260  aBydgoszczb"Arcanum"c[1990]300  a91, [1] s.c21 cm440  a294xv500  aTyt. oryg.: Die Leiden des jungen Werthers|Goethe, Johann Wolfgang von (1749-1832).|Cierpienia młodego Wertera|"Arcanum"|Bydgoszcz|[1990]|lektury|Lektury11561|001  amol2000080  a830-3100  a5982245  aCierpienia młodego WerteracJohann Wolfgang Goethe ; przeł. [z niem.] Leopold Staff260  aBydgoszczb"Arcanum"c[1990]300  a91, [1] s.c21 cm440  a294xv500  aTyt. oryg.: Die Leiden des jungen Werthers'
+    // let found = bookRegExp.exec(tx)
+    // this.book = found[0]!
+    // this.book = this.items = [
+    //   {
+    //     OPIS_ID: found[1],
+    //     OPIS_DANE: found[3],
+    //     OPIS_AUTOR: found[4],
+    //     OPIS_TYTUL: found[5],
+    //     OPIS_WYDAWCA: found[6],
+    //     OPIS_MWYD: found[7],
+    //     OPIS_RWYD: found[8],
+    //     ZKS_SYGNAT: found[9],
+    //     RKS_TEKST: found[0]
+    //   }
+    // ]
 
-    console.warn(this.books)
-    console.warn(found)
-    // console.warn(found(0))
+    // console.warn(this.books)
+    // console.warn(found)
+    // // console.warn(found(0))
     // console.warn(found[1])
 
     //codesandbox.io/s/github/nuxt/nuxt.js/tree/dev/examples/vuex-store?from-embed=&file=/pages/index.vue
     // https: 
     let result
+    var regexp = /^(\d{1,6})\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\d]+)/g;
+    regexp.lastIndex = Math.random();
+    var i = 0;
+    var str = '11560|001  amol2000080  a884-1+884(091)-1"18"A/Z100  a5938245  aKonrad WallenrodcAdam Mickiewicz250  aWyd. 3 zm.260  aWrocławbZakład Narodowy im. Ossolińskichc1991300  aCLXXIII, [1], 116, [2] s.c17 cm440  a258xISSN 0208-4104vnr 72500  aKole|Mickiewicz, Adam (1798-1855).|Konrad Wallenrod|Zakład Narodowy im. Ossoliński|Wrocław|1991|lektury|Lektury11561|001  amol2000080  a830-3100  a5982245  aCierpienia młodego WerteracJohann Wolfgang Goethe ; przeł. [z niem.] Leopold Staff260  aBydgoszczb"Arcanum"c[1990]300  a91, [1] s.c21 cm440  a294xv500  aTyt. oryg.: Die Leiden des jungen Werthers|Goethe, Johann Wolfgang von (1749-1832).|Cierpienia młodego Wertera|"Arcanum"|Bydgoszcz|[1990]|lektury|Lektury11561|001  amol2000080  a830-3100  a5982245  aCierpienia młodego WerteracJohann Wolfgang Goethe ; przeł. [z niem.] Leopold Staff260  aBydgoszczb"Arcanum"c[1990]300  a91, [1] s.c21 cm440  a294xv500  aTyt. oryg.: Die Leiden des jungen Werthers';
+     while ((result = regexp.exec(str))) {
+       console.log(`Found ${result[0]} at position ${result.index}`)
+        var msg = 'Found ' + result[0] + '. ';
+  // msg += 'Next match starts at ' + regexp.lastIndex;
+  i++;
+   console.log(i); 
+      this.book = result;
+      this.items = [
+      {
+        OPIS_ID: result[1],
+        OPIS_DANE: result[3],
+        OPIS_AUTOR: result[4],
+        OPIS_TYTUL: result[5],
+        OPIS_WYDAWCA: result[6],
+        OPIS_MWYD: result[7],
+        OPIS_RWYD: result[8],
+        ZKS_SYGNAT: result[9],
+        RKS_TEKST: result[0]
+      }
+      
+    ]
 
-    // while ((result = regexp.exec(str))) {
-    //   console.log(`Found ${result[0]} at position ${result.index}`)
+
     //   // Found JavaScript at position 11, then
     //   // Found javascript at position 33
 
@@ -126,8 +151,10 @@ export default Vue.extend({
     //       this.books
     //     ) || '{}'
     // )
+     }
   }
 })
+
 </script>
 
 <style></style>
