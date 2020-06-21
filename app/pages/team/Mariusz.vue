@@ -29,7 +29,7 @@ import Table from '~/components/Table.vue'
 import Regex from '~/components/Regex.vue'
 
 export default Vue.extend({
-  layout: 'red',
+  // layout: 'red',
   components: {
     Regex,
     Logo,
