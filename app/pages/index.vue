@@ -12,7 +12,8 @@
           v-for="user in users"
           v-bind:key="user.name"
           :to="'team/' + user.name"
-        >{{ user.name }}</nuxt-link>
+          >{{ user.name }}</nuxt-link
+        >
       </div>
       <CardPlugin />
 
@@ -20,8 +21,15 @@
       <h1 class="title">VueNuxte</h1>
       <h2 class="subtitle">My sublime Nuxt.js project</h2>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
+        <a href="https://nuxtjs.org/" target="_blank" class="button--green"
+          >Documentation</a
+        >
+        <a
+          href="https://github.com/nuxt/nuxt.js"
+          target="_blank"
+          class="button--grey"
+          >GitHub</a
+        >
       </div>
 
       <!-- <textarea rows="10" v-model="text"></textarea> -->
@@ -36,11 +44,11 @@ import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
 import Moscicki from '~/components/Moscicki.vue'
 import FileReader from '~/components/FileReader.vue'
-import { CardPlugin, TablePlugin } from 'bootstrap-vue'
+// import { CardPlugin, TablePlugin } from 'bootstrap-vue'
 
 // Add the plugins to Vue
-Vue.use(CardPlugin)
-Vue.use(TablePlugin)
+// Vue.use(CardPlugin)
+// Vue.use(TablePlugin)
 
 export default Vue.extend({
   layout: 'intro',
