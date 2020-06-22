@@ -45,7 +45,7 @@ import Books from '~/components/Books.vue'
 import { mapState } from 'vuex'
 
 export default Vue.extend({
-  // layout: 'error',
+   layout: 'intro',
   components: {
     Moscicki,
     Search,

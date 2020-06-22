@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="box">
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+      <b-navbar-brand ><NuxtLink to="/" class="homelink">M-Book</NuxtLink></b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -18,7 +18,7 @@
           <b-nav-form>
             <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
             <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
-            <b-button size="sm" class="my-2 my-sm-0" type="button">Random</b-button>
+            
           </b-nav-form>
         </b-navbar-nav>
       </b-collapse>
@@ -30,6 +30,9 @@
 </template>
 
 <style>
+.box {
+  background-color:antiquewhite;
+}
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -76,5 +79,15 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.homelink:hover {
+  color: #fff;
+      text-decoration: none;
+}
+
+.homelink:visited {
+  color: #fff;
+      text-decoration: none;
 }
 </style>

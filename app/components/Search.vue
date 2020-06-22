@@ -2,7 +2,7 @@
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark indigo mb-4">
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Navbar</a>
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
 
     <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -13,7 +13,7 @@
         <button href="#!" class="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit">Search</button>
         <!-- <button v-on:click="warn('Form cannot be submitted yet.', $event)">Los</button> -->
         <button @click="f">Refresh</button>
-        <Regex />
+        <!-- <Regex /> -->
       </form>
     </div>
     <!-- Collapsible content -->
