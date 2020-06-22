@@ -25,7 +25,7 @@
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-        <NuxtLink to="tempindex">Startowa</NuxtLink>
+        
       </div>
 
       <!-- <textarea rows="10" v-model="text"></textarea> -->
