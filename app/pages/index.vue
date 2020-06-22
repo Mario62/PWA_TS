@@ -14,7 +14,7 @@
           :to="'team/' + user.name"
         ><tt>{{ user.name }} </tt></nuxt-link>
       </div>
-      <CardPlugin />
+      <!-- <CardPlugin /> -->
 
       <Moscicki color="K" />
       <div class="search">
@@ -44,8 +44,8 @@ import Search from '~/components/Search.vue'
 import { CardPlugin, TablePlugin } from 'bootstrap-vue'
 
 // Add the plugins to Vue
-Vue.use(CardPlugin)
-Vue.use(TablePlugin)
+// Vue.use(CardPlugin)
+// Vue.use(TablePlugin)
 
 export default Vue.extend({
   layout: 'intro',
@@ -73,7 +73,7 @@ export default Vue.extend({
 }
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;

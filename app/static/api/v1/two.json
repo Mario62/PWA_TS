@@ -1,15 +1,19 @@
 [
-    {   "task":   "Zaprojektuj API które w przyszłości będziemy mogli wykorzystać w innych projektach" },
-    {   
-        "id":     "11560",
-        "title":  "Konrad Wallenrod",
-        "author": "Adam Mickiewicz",
-        "publishingCity": "Wrocław",
-        "publishing":     "Zakład Narodowy im. Ossolińskich",
-        "publishingYear": "1991",
-        "ISSN": "0208-4104",
-        "ISBN":  null,
-        "info": "Kole|Mickiewicz, Adam (1798-1855).|Konrad Wallenrod|Zakład Narodowy im. Ossoliński|Wrocław|1991|lektury|Lektury" 
-    },
-    {  "raw": "11561|001  amol2000080  a830-3100  a5982245  aCierpienia młodego WerteracJohann Wolfgang Goethe ; przeł. [z niem.] Leopold Staff260  aBydgoszczb\"Arcanum\"c[1990]300  a91, [1] s.c21 cm440  a294xv500  aTyt. oryg.: Die Leiden des jungen Werthers" }
+  {
+    "task": "Zaprojektuj API które w przyszłości będziemy mogli wykorzystać w innych projektach"
+  },
+  {
+    "id": "11560",
+    "title": "Konrad Wallenrod",
+    "author": "Adam Mickiewicz",
+    "publishingCity": "Wrocław",
+    "publishing": "Zakład Narodowy im. Ossolińskich",
+    "publishingYear": "1991",
+    "ISSN": "0208-4104",
+    "ISBN": null,
+    "info": "Kole|Mickiewicz, Adam (1798-1855).|Konrad Wallenrod|Zakład Narodowy im. Ossoliński|Wrocław|1991|lektury|Lektury"
+  },
+  {
+    "raw": "11561|001  amol2000080  a830-3100  a5982245  aCierpienia młodego WerteracJohann Wolfgang Goethe ; przeł. [z niem.] Leopold Staff260  aBydgoszczb\"Arcanum\"c[1990]300  a91, [1] s.c21 cm440  a294xv500  aTyt. oryg.: Die Leiden des jungen Werthers"
+  }
 ]

@@ -4,6 +4,7 @@
     <div>
       <nuxt />
     </div>
+    
   </div>
 </template>
 <script lang="ts">
