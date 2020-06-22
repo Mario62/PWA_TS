@@ -20,7 +20,7 @@
       <div class="search">
         <Search />
       </div>
-      <h1 class="title">VueNuxte</h1>
+      <h1 class="title">VueNuxt</h1>
       <h2 class="subtitle">My sublime Nuxt.js project</h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
