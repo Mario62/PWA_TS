@@ -58,4 +58,7 @@ export default Vue.extend({
 </script>
 
 <style>
+input {
+  background: transparent;
+}
 </style>
