@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <logo />
+      <!-- <logo /> -->
 
       <div>
         <div v-if="$nuxt.isOffline">You are offline</div>
@@ -20,13 +20,13 @@
       <div class="search">
         <Search />
       </div>
-      <h1 class="title">VueNuxt</h1>
-      <h2 class="subtitle">My sublime Nuxt.js project</h2>
-      <div class="links">
+      <!-- <h1 class="title">VueNuxte</h1> -->
+      <!-- <h2 class="subtitle">My sublime Nuxt.js project</h2> -->
+      <!-- <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
         
-      </div>
+      </div> -->
 
       <!-- <textarea rows="10" v-model="text"></textarea> -->
       <br />
@@ -73,7 +73,8 @@ export default Vue.extend({
 }
 .container {
   margin: 0 auto;
-  min-height: 80%;
+  padding: 10vh; 
+  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;

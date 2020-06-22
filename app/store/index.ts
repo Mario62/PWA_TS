@@ -1,5 +1,9 @@
 export const state = () => ({
   counter: 0,
+  podpowiedzi: [
+    { author: "Adam Mickiewicz", title: "Dziady" },
+    { author: "Adam Asnyk", title: "Dziady" }
+  ],  
   all: '',
   books: [
     {
