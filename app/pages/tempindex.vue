@@ -1,31 +1,22 @@
 <template>
+
   <div class="container">
     <div>
-      <logo />
+      <!-- <logo /> -->
 
       <div>
         <div v-if="$nuxt.isOffline">You are offline</div>
         <div v-if="$nuxt.isOnline">You are Online</div>
 
         <!-- <nuxt-link to="/">Home Page</nuxt-link>          -->
-        <nuxt-link
-          v-for="user in users"
-          v-bind:key="user.name"
-          :to="'team/' + user.name"
-        ><tt>{{ user.name }} </tt></nuxt-link>
+        
       </div>
-      <CardPlugin />
+      <!-- <CardPlugin /> -->
 
       <Moscicki color="K" />
+      
       <div class="search">
         <Search />
-      </div>
-      <h1 class="title">VueNuxte</h1>
-      <h2 class="subtitle">My sublime Nuxt.js project</h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-        <NuxtLink to="tempindex">Startowa</NuxtLink>
       </div>
 
       <!-- <textarea rows="10" v-model="text"></textarea> -->
@@ -65,6 +56,7 @@ export default Vue.extend({
 </script>
 
 <style>
+
 .search {
   display: flex;
   justify-content: center;
@@ -74,7 +66,7 @@ export default Vue.extend({
 .container {
   margin: 0 auto;
   min-height: 100vh;
-  display: flex;
+  /* display:; */
   justify-content: center;
   align-items: center;
   text-align: center;
