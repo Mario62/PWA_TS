@@ -26,6 +26,7 @@
     <div>
       <nuxt />
     </div>
+    
   </div>
 </template>
 
