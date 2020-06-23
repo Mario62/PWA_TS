@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <form class="form-inline ml-auto">
         <div class="md-form my-0">
-          <input class="form-control" type="text" placeholder="Search" aria-label="Search" />
+          <input list="searchlist" class="form-control" type="text" placeholder="Search" aria-label="Search" />
         </div>
         <button href="#!" class="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit">Search</button>
         <!-- <button v-on:click="warn('Form cannot be submitted yet.', $event)">Los</button> -->
@@ -17,6 +17,10 @@
       </form>
     </div>
     <!-- Collapsible content -->
+    <datalist id="searchlist">
+    <option>Manual Option</option>
+    <option v-for="size in sizes">{{ size }}</option>
+  </datalist>
   </nav>
   <!--/.Navbar-->
 </template>
@@ -27,12 +31,20 @@
 import Vue from 'vue'
 import Regex from '~/components/Regex.vue'
 
+
+
 export default Vue.extend({
+  
   components: {
     Regex
   },
 
   methods: {
+    data() {
+      return {
+        sizes: ['Small', 'Medium', 'Large', 'Extra Large']
+      }
+    },
     // warn: function(message, event) {
     //   // now we have access to the native event
     //   if (event) {
@@ -54,7 +66,8 @@ export default Vue.extend({
   mounted() {
     this.$store.state.count = 3
   }
-})
+}
+)
 </script>
 
 <style>
