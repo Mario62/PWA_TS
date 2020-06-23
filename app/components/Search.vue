@@ -12,7 +12,7 @@
         </div>
         <button href="#!" class="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit">Search</button>
         <!-- <button v-on:click="warn('Form cannot be submitted yet.', $event)">Los</button> -->
-        <!-- <button @click="f">Refresh</button> -->
+        <button @click="f">Refresh</button>
         <!-- <Regex /> -->
       </form>
     </div>
@@ -71,7 +71,4 @@ export default Vue.extend({
 </script>
 
 <style>
-input {
-  background: transparent;
-}
 </style>
