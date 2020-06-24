@@ -1,5 +1,11 @@
 export default () => ({
   list: [],
   counter: 435350,
-  sugestions:  ['MickiewiczM', 'das', 'das', 'Extra Large']     
+  sugestions: [
+    'Adam Mickiewicz',
+    'Adam Asnyk',
+    'Juliusz Słowacki',
+    'Andrzej Sapkowski',
+    'Edward Nowak'
+  ]
 })

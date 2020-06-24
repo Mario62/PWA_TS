@@ -25,7 +25,6 @@
       <option>Manual Option</option>
       <option v-for="sugestions in  $store.state.sugestions ">{{ sugestions }}</option>
     </datalist>
-    <todos />
   </nav>
   <!--/.Navbar-->
 </template>
@@ -35,12 +34,10 @@
 
 import Vue from 'vue'
 import Regex from '~/components/Regex.vue'
-import todos from '~/components/todos.vue'
 
 export default Vue.extend({
   components: {
-    Regex,
-    todos
+    Regex
   },
   data: function() {
     return {
