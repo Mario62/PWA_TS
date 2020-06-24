@@ -5,30 +5,27 @@
     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
 
     <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <form class="form-inline ml-auto" id="searchForm" v-bind:action="saveData()">
-        <div class="md-form my-0">
-          <input list="searchlist" class="form-control" type="text" placeholder="Search" aria-label="Search" />
-        </div>
-        <button href="#!" class="btn btn-outline-white btn-md my-0 ml-sm-2" type="submit">Search</button>
-        <!-- <button v-on:click="warn('Form cannot be submitted yet.', $event)">Los</button> -->
-        <button @click="f">Refresh</button>
-        <!-- <Regex /> -->
-      </form>
-       <form>
-    <input type="text" ref="my_input">
-    <button @click.prevent="getFormValues()">Get values</button>
-  </form>
-  Output: {{ output }}
-    </div>
-    {{ $store.state.sugestions }}
 
+    <form>
+      <input
+        list="searchlist"
+        type="text"
+        ref="my_input"
+        class="form-control"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button @click.prevent="getFormValues()">Get values</button>
+    </form>
+    Output: {{ output }}
+    Sizes: {{ sizes }}
+    {{ $store.state.sugestions }}
     <!-- Collapsible content -->
     <datalist id="searchlist">
-    <option>Manual Option</option>
-    <option v-for="el in sugestions">{{  $store.state }}</option>
-  </datalist>
-  <todos />
+      <option>Manual Option</option>
+      <option v-for="sugestions in  $store.state.sugestions ">{{ sugestions }}</option>
+    </datalist>
+    <todos />
   </nav>
   <!--/.Navbar-->
 </template>
@@ -40,30 +37,28 @@ import Vue from 'vue'
 import Regex from '~/components/Regex.vue'
 import todos from '~/components/todos.vue'
 
-
-
 export default Vue.extend({
-  
   components: {
     Regex,
     todos
   },
   data: function() {
-      return {
-        sizes: '',
-        
-        output: ''
-      }
-  },    
+    return {
+      sizes: 'dsaaa',
+
+      output: ''
+    }
+  },
   methods: {
-    getFormValues () {
+    getFormValues: function() {
       this.output = this.$refs.my_input.value
       this.sizes = this.$refs.my_input.value
+      this.$store.state.sugestions.push(this.$refs.my_input.value)
     },
 
     saveData() {
       // alert("msg")
-      console.log("Works");
+      console.log('Works')
     },
     // warn: function(message, event) {
     //   // now we have access to the native event
@@ -86,8 +81,7 @@ export default Vue.extend({
   mounted() {
     this.$store.state.count = 3
   }
-}
-)
+})
 </script>
 
 <style>
