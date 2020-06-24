@@ -38,6 +38,8 @@ static
 * [Black Theme Example](https://demos.creative-tim.com/nuxt-black-dashboard-pro/)
 * [PWA Nuxt workbook](https://pwa.nuxtjs.org/modules/workbox.html#options)
 * https://github.com/nuxt-community/awesome-nux
+* [async-data](https://nuxtjs.org/guide/async-data)
+
 
 
 ## GUI
@@ -94,3 +96,4 @@ static
  
 https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
 
+https://localforage.github.io/localForage/
