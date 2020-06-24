@@ -26,11 +26,30 @@ static
 
 - Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 
+<<<<<<< HEAD
+
 - [Vue Mastery](https://medium.com/vue-mastery)
 - [Nuxt](https://github.com/nuxt/nuxt.js/tree/dev/examples)
 - [Passionate People](https://passionatepeople.io/#our-expertise)
 - [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/raw/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
-- https://alligator.io/vuejs/ Example interfaces https://alligator.io/vuejs/using-typescript-with-vue/
+- # https://alligator.io/vuejs/ Example interfaces https://alligator.io/vuejs/using-typescript-with-vue/
+
+* [Vue Mastery](https://medium.com/vue-mastery)
+* [Nuxt](https://github.com/nuxt/nuxt.js/tree/dev/examples)
+* [Passionate People](https://passionatepeople.io/#our-expertise)
+* [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/raw/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
+* https://alligator.io/vuejs/ Example interfaces https://alligator.io/vuejs/using-typescript-with-vue/
+
+* [Courses eg. static generation](https://vueschool.io/courses/vuex-for-everyone) https://vueschool.io/courses/nuxtjs-fundamentals
+* Router https://vueschool.io/lessons/linking-between-pages
+* https://vueschool.io/courses/vuejs-components-fundamentals
+* https://vueschool.io/courses/vue-router-for-everyone
+* [Black Theme Example](https://demos.creative-tim.com/nuxt-black-dashboard-pro/)
+* [PWA Nuxt workbook](https://pwa.nuxtjs.org/modules/workbox.html#options)
+* https://github.com/nuxt-community/awesome-nux
+* [async-data](https://nuxtjs.org/guide/async-data)
+
+> > > > > > > 565dbbac5287441beb445b918493a154efeb4a46
 
 - [Courses eg. static generation](https://vueschool.io/courses/vuex-for-everyone) https://vueschool.io/courses/nuxtjs-fundamentals
 - Router https://vueschool.io/lessons/linking-between-pages
@@ -105,6 +124,7 @@ https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
 - JEDNA WYSZUKAJKA
 - Podpowiedzi z vuex store
 
+* Mutacja
 * Zapis do store (przez mutację)
 
 ##### Backend
@@ -113,3 +133,4 @@ https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
 - validacja poprawności zapytań
 
 - Team page
+  https://localforage.github.io/localForage/

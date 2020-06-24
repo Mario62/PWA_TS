@@ -12,7 +12,7 @@
       <NLink to="/">Home Page</NLink>
 
       <b-spinner type="grow" label="Loading..."></b-spinner>
-
+      async: {{project}}
       <search />
 
       <client-only placeholder="Loading...">
@@ -45,7 +45,7 @@ import Books from '~/components/Books.vue'
 import { mapState } from 'vuex'
 
 export default Vue.extend({
-   layout: 'intro',
+  layout: 'intro',
   components: {
     Moscicki,
     Search,
@@ -60,6 +60,12 @@ export default Vue.extend({
   methods: {
     increment() {
       this.$store.commit('increment')
+    },
+    data() {
+      return { project: 'default' }
+    },
+    asyncData(context) {
+      return { project: 'nuxt' }
     }
   }
 })
