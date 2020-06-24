@@ -50,7 +50,8 @@ export default Vue.extend({
     getFormValues: function() {
       this.output = this.$refs.my_input.value
       this.sizes = this.$refs.my_input.value
-      this.$store.state.sugestions.push(this.$refs.my_input.value)
+      // this.$store.state.sugestions.push(this.$refs.my_input.value)
+      this.$store.commit('addToList', this.$refs.my_input.value)
     },
 
     saveData() {
