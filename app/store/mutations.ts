@@ -4,7 +4,8 @@ export default {
   increment(state) {
     state.counter--
   },
-  addToList(state) {
-    state.sugestions = 
+  addToList(state, { text }) {
+    var tempText = { text }
+    state.sugestions.push(tempText.text)
   }
 }

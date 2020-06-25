@@ -15,7 +15,7 @@
         placeholder="Search"
         aria-label="Search"
       />
-      <button @click.prevent="getFormValues()">Get values</button>
+      <button @click.prevent="getFormValues">Get values</button>
     </form>
     Output: {{ output }}
     Sizes: {{ sizes }}
@@ -47,12 +47,28 @@ export default Vue.extend({
     }
   },
   methods: {
-    getFormValues: function() {
+    getFormValues: function(e) {
       this.output = this.$refs.my_input.value
       this.sizes = this.$refs.my_input.value
       // this.$store.state.sugestions.push(this.$refs.my_input.value)
-      this.$store.commit('addToList', this.$refs.my_input.value)
+      const text = this.$refs.my_input.value
+
+      if (text.trim()) {
+        this.$store.commit('addToList', { text })
+      }
+      e.target.value = ''
     },
+
+    // addText: function(e) {
+    //   //DZIAŁA ALE WYŚWIETLA {"text": "fssaas"}, czyli źle. POSZEDŁEM NA POSIŁEK
+    //   const text = e.target.value
+    //   console.log(text)
+    //   if (text.trim()) {
+    //     this.$store.commit('addToList', { text })
+    //   }
+    //   e.target.value = ''
+    //   console.log('Works1')
+    // },
 
     saveData() {
       // alert("msg")
