@@ -25,18 +25,21 @@ export default Vue.extend({
     var bio = 0
     var i = 0
     console.log('Oto countCat: ' + this.i++)
+    var tempUnique: String = ''
     var unique = catArray.filter((v, i, a) => a.indexOf(v) === i)
-    console.log('Unique: ' + unique)
-    // var uniqueArray = unique.split(',')
-    // console.log(uniqueArray)
-    this.$store.state.categories.forEach(function(value: String) {
-      if (value == 'beletrystyka') {
-        bel = bel + 1
-        // console.log('Beletrystyka: ' + this.bel)
-      } else if (value == 'biografie') {
-        bio = bio + 1
-        // console.log('Biografia: ' + this.bio)
-      }
+    tempUnique = String(unique)
+    var uniqueArray = tempUnique.split(',')
+    //console.log(uniqueArray)
+    uniqueArray.forEach(function(uniqueval: String) {
+      catArray.forEach(function(value: String) {
+        if (value == 'beletrystyka') {
+          bel = bel + 1
+          // console.log('Beletrystyka: ' + this.bel)
+        } else if (value == 'biografie') {
+          bio = bio + 1
+          // console.log('Biografia: ' + this.bio)
+        }
+      })
     })
     console.log('Beletrystyka: ' + bel)
     console.log('Biografia: ' + bio)
