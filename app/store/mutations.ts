@@ -1,10 +1,10 @@
 import state from './state'
 
 export default {
-  increment(state) {
+  increment(state: any) {
     state.counter--
   },
-  addToList(state, { text }) {
+  addToList: function(state: any, { text }) {
     var tempText = { text }
     state.sugestions.push(tempText.text)
   }

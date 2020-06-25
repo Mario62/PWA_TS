@@ -1,0 +1,69 @@
+<template>
+  <div>
+    <!-- {{$store.state.categories}} -->
+    <b-button @click.prevent="countCat">Odśwież</b-button>
+    <b-table striped hover :items="items"></b-table>
+    <!-- {{items}} -->
+  </div>
+</template>
+
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+  layout: 'intro',
+  data: function() {
+    return {
+      bel: 0,
+      bio: 0,
+      i: 0,
+      items: [{ a: '1' }, { a: '3' }]
+    }
+  },
+  mounted() {
+    let catArray = this.$store.state.categories
+    var bel = 0
+    var bio = 0
+    var i = 0
+    console.log('Oto countCat: ' + this.i++)
+    var unique = catArray.filter((v, i, a) => a.indexOf(v) === i)
+    console.log('Unique: ' + unique)
+    // var uniqueArray = unique.split(',')
+    // console.log(uniqueArray)
+    this.$store.state.categories.forEach(function(value: String) {
+      if (value == 'beletrystyka') {
+        bel = bel + 1
+        // console.log('Beletrystyka: ' + this.bel)
+      } else if (value == 'biografie') {
+        bio = bio + 1
+        // console.log('Biografia: ' + this.bio)
+      }
+    })
+    console.log('Beletrystyka: ' + bel)
+    console.log('Biografia: ' + bio)
+    this.items = unique
+  },
+  methods: {
+    countCat() {
+      this.items = 33
+      var bel = 0
+      var bio = 0
+      var i = 0
+      console.log('Oto countCat: ' + this.i++)
+      this.$store.state.categories.forEach(function(value: String) {
+        if (value == 'beletrystyka') {
+          bel = bel + 1
+          // console.log('Beletrystyka: ' + this.bel)
+        } else if (value == 'biografie') {
+          bio = bio + 1
+          // console.log('Biografia: ' + this.bio)
+        }
+      })
+      console.log('Beletrystyka: ' + bel)
+      console.log('Biografia: ' + bio)
+    }
+  }
+})
+</script>
+
+<style>
+</style>

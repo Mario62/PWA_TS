@@ -12,6 +12,7 @@
         type="text"
         ref="my_input"
         class="form-control"
+        value="example"
         placeholder="Search"
         aria-label="Search"
       />
@@ -45,11 +46,13 @@ export default Vue.extend({
   },
   methods: {
     getFormValues: function(e) {
-      this.output = this.$refs.my_input.value
-      this.sizes = this.$refs.my_input.value
+      //this.output = this.$refs.my_input.value
+      //this.sizes = this.$refs.my_input.value
       // this.$store.state.sugestions.push(this.$refs.my_input.value)
-      const text = this.$refs.my_input.value
-
+      // @ts-ignore: Unreachable code error
+      const text: String = this.$refs.my_input.value
+      const text2: String = e.target.value
+      console.log(text2)
       if (text.trim()) {
         this.$store.commit('addToList', { text })
       }
