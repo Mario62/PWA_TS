@@ -19,7 +19,6 @@
 <script lang="ts">
 import Vue from 'vue'
 import axios from 'axios'
-// import store from 'vuex'
 
 export default Vue.extend({
   data: function() {
