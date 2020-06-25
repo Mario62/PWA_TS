@@ -77,8 +77,15 @@
 
 > https://pythex.org
 
-```ts
+```regexp
     (3[12][0-9]{3}).+\\x22([A-Za-z]+.[a-zA-Z]+)\\x22
+```
+
+```regexp
+  for notepad++ Szukany tekst
+    ^(\d{1,6})\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\d]+)
+    zamień na
+    {id:"$1",author:"$3",title:"$4",publisher:"$5",city:"$6",year:"$7",category:"$8" }\n
 ```
 
 > https://regex101.com
