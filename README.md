@@ -12,6 +12,9 @@
 ### Projekty wzorcowe, pomoce naukowe, przydasie
 
 - Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
+  
+- [Komponenty Bootstrap](https://bootstrap-vue.org/docs/components/badge)
+
 
 - [Vue Mastery](https://medium.com/vue-mastery)
 - [Nuxt](https://github.com/nuxt/nuxt.js/tree/dev/examples)
@@ -107,9 +110,8 @@ https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
 
 - JEDNA WYSZUKAJKA
 - Podpowiedzi z vuex store
-
-* Mutacja
-* Zapis do store (przez mutację)
+- Mutacja
+- Zapis do store (przez mutację)
 
 ##### Backend
 
