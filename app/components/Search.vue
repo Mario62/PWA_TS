@@ -1,6 +1,6 @@
 <template>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark indigo mb-4">
+  <nav class="navbar navbar-expand-lg navbar-dark indigo">
     <!-- Navbar brand -->
     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
 
@@ -16,12 +16,12 @@
         placeholder="Search"
         aria-label="Search"
       />
-      <b-button @click.prevent="getFormValues" squared variant="primary">Szukaj</b-button>
+      <b-button @click.prevent="getFormValues" squared variant="success" class="ml-3">Szukaj</b-button>
     </b-form>
     <!-- Collapsible content -->
     <datalist id="searchlist">
       <option>Manual Option</option>
-      <option v-for="sugestions in  $store.state.sugestions ">{{ sugestions }}</option>
+      <option v-for="sugestion in  $store.state.sugestions ">{{ sugestion }}</option>
     </datalist>
   </nav>
   <!--/.Navbar-->

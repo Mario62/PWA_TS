@@ -25,7 +25,7 @@
   + [25 min NuxtJS data, asyncData, fetch and nuxtServerInit](https://www.youtube.com/watch?v=NDVCquHbFIM)
 - [Posts About Vue.js](https://alligator.io/vuejs/)
 - [Example interfaces](https://alligator.io/vuejs/using-typescript-with-vue/)
-
+- [TS Json](http://choly.ca/post/typescript-json/)
 ## Schemat bazy danych
 
 ![vue_crate_app](./docs/All.png)

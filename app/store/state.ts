@@ -8,7 +8,18 @@ export default () => ({
     'Andrzej Sapkowski',
     'Edward Nowak'
   ],
-
+  actions: {
+    nuxtServerInit({ commit }, { req }) {
+      if ($store.state.list === []) {
+        console.log('list')
+        console.log(list)
+        list = { count: '3' }
+      }
+      // if (req.session.user) {
+      //   commit('user', req.session.user)
+      // }
+    }
+  },
   categories: [
     'lektury',
     'lektury',

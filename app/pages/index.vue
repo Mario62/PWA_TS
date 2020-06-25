@@ -3,17 +3,6 @@
     <div>
       <!-- <logo /> -->
 
-      <div>
-        <div v-if="$nuxt.isOffline">You are offline</div>
-        <div v-if="$nuxt.isOnline">You are Online</div>
-
-        <!-- <nuxt-link to="/">Home Page</nuxt-link>          -->
-        <nuxt-link
-          v-for="user in users"
-          v-bind:key="user.name"
-          :to="'team/' + user.name"
-        ><tt>{{ user.name }} </tt></nuxt-link>
-      </div>
       <!-- <CardPlugin /> -->
 
       <Moscicki color="K" />
@@ -26,7 +15,7 @@
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
         
-      </div> -->
+      </div>-->
 
       <!-- <textarea rows="10" v-model="text"></textarea> -->
       <br />
@@ -73,7 +62,7 @@ export default Vue.extend({
 }
 .container {
   margin: 0 auto;
-  padding: 10vh; 
+  padding: 10vh;
   /* min-height: 100vh; */
   display: flex;
   justify-content: center;

@@ -8,7 +8,7 @@
       <!-- <TempTable /> -->
       <!-- <i class="fa fa-github" aria-hidden="true"></i> -->
 
-      <table />
+      <!-- <table /> -->
       <regex />
       <!-- <h1 class="title">VueNuxte</h1> -->
       <!-- <h2 class="subtitle">My sublime Nuxt.js project</h2> -->

@@ -13,11 +13,11 @@
 
       <b-spinner type="grow" label="Loading..."></b-spinner>
       async: {{project}}
-      <search />
-
+      <!-- <search /> -->
+      <card />
       <client-only placeholder="Loading...">
-        <books />
-        <reg />
+        <!-- <books /> -->
+        <!-- <reg /> -->
       </client-only>
 
       <!-- <div class="container"> -->
@@ -42,6 +42,7 @@ import axios from 'axios'
 import Search from '~/components/Search.vue'
 import Reg from '~/components/Reg.vue'
 import Books from '~/components/Books.vue'
+import Card from '~/components/Card.vue'
 import { mapState } from 'vuex'
 
 export default Vue.extend({
@@ -51,7 +52,8 @@ export default Vue.extend({
     Search,
     Logo,
     Reg,
-    Books
+    Books,
+    Card
   },
   fetch({ store }) {
     store.commit('increment')
@@ -65,8 +67,15 @@ export default Vue.extend({
   data() {
     return { project: 'default' }
   },
-  async asyncData(context) {
-    return { project: 'nuxt' }
+  // async asyncData(context) {
+  //   return { project: 'nuxt' }
+  // },
+  asyncData() {
+    return new Promise((resolve) => {
+      setTimeout(function() {
+        resolve({ name: 'world' })
+      }, 1000)
+    })
   }
 })
 </script>
