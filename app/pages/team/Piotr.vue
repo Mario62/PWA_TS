@@ -60,13 +60,13 @@ export default Vue.extend({
   methods: {
     increment() {
       this.$store.commit('increment')
-    },
-    data() {
-      return { project: 'default' }
-    },
-    asyncData(context) {
-      return { project: 'nuxt' }
     }
+  },
+  data() {
+    return { project: 'default' }
+  },
+  async asyncData(context) {
+    return { project: 'nuxt' }
   }
 })
 </script>
