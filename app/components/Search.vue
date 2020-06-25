@@ -6,7 +6,7 @@
 
     <!-- Collapsible content -->
 
-    <form>
+    <b-form inline display-flex>
       <input
         list="searchlist"
         type="text"
@@ -15,11 +15,8 @@
         placeholder="Search"
         aria-label="Search"
       />
-      <button @click.prevent="getFormValues">Get values</button>
-    </form>
-    Output: {{ output }}
-    Sizes: {{ sizes }}
-    {{ $store.state.sugestions }}
+      <b-button @click.prevent="getFormValues" squared variant="primary">Szukaj</b-button>
+    </b-form>
     <!-- Collapsible content -->
     <datalist id="searchlist">
       <option>Manual Option</option>
@@ -93,7 +90,7 @@ export default Vue.extend({
     }
   },
   mounted() {
-    this.$store.state.count = 3
+    // this.$store.state.count = 3
   }
 })
 </script>

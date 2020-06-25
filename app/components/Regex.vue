@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h2>Random book</h2>
+    <!-- <h2>Random book</h2>
     <b-button size="sm" class="my-2 my-sm-0" type="button">Random</b-button>
     <td>
       <tr></tr>
     </td>
-    title:{{title}}
-    <p>I see {{ totalBooksCount }} TVs!</p>
+    title:{{title}}-->
+    <!-- <p>I see {{ totalBooksCount }} TVs!</p> -->
     <div>
       <b-table striped hover :items="items"></b-table>
     </div>
@@ -236,37 +236,37 @@ export default Vue.extend({
     var i = 0
     var str =
       '11560|001  amol2000080  a884-1+884(091)-1"18"A/Z100  a5938245  aKonrad WallenrodcAdam Mickiewicz250  aWyd. 3 zm.260  aWrocławbZakład Narodowy im. Ossolińskichc1991300  aCLXXIII, [1], 116, [2] s.c17 cm440  a258xISSN 0208-4104vnr 72500  aKole|Mickiewicz, Adam (1798-1855).|Konrad Wallenrod|Zakład Narodowy im. Ossoliński|Wrocław|1991|lektury|Lektury11561|001  amol2000080  a830-3100  a5982245  aCierpienia młodego WerteracJohann Wolfgang Goethe ; przeł. [z niem.] Leopold Staff260  aBydgoszczb"Arcanum"c[1990]300  a91, [1] s.c21 cm440  a294xv500  aTyt. oryg.: Die Leiden des jungen Werthers|Goethe, Johann Wolfgang von (1749-1832).|Cierpienia młodego Wertera|"Arcanum"|Bydgoszcz|[1990]|lektury|Lektury11561|001  amol2000080  a830-3100  a5982245  aCierpienia młodego WerteracJohann Wolfgang Goethe ; przeł. [z niem.] Leopold Staff260  aBydgoszczb"Arcanum"c[1990]300  a91, [1] s.c21 cm440  a294xv500  aTyt. oryg.: Die Leiden des jungen Werthers'
-    while ((result = regexp.exec(str))) {
-      console.log(`Found ${result[0]} at position ${result.index}`)
-      var msg = 'Found ' + result[0] + '. '
-      // msg += 'Next match starts at ' + regexp.lastIndex;
-      i++
-      console.log(i)
-      this.book = result
-      this.items = [
-        {
-          OPIS_ID: result[1],
-          OPIS_DANE: result[3],
-          OPIS_AUTOR: result[4],
-          OPIS_TYTUL: result[5],
-          OPIS_WYDAWCA: result[6],
-          OPIS_MWYD: result[7],
-          OPIS_RWYD: result[8],
-          ZKS_SYGNAT: result[9],
-          RKS_TEKST: result[0]
-        }
-      ]
+    // while ((result = regexp.exec(str))) {
+    //   console.log(`Found ${result[0]} at position ${result.index}`)
+    //   var msg = 'Found ' + result[0] + '. '
+    //   // msg += 'Next match starts at ' + regexp.lastIndex;
+    //   i++
+    //   console.log(i)
+    //   this.book = result
+    //   this.items = [
+    //     {
+    //       OPIS_ID: result[1],
+    //       OPIS_DANE: result[3],
+    //       OPIS_AUTOR: result[4],
+    //       OPIS_TYTUL: result[5],
+    //       OPIS_WYDAWCA: result[6],
+    //       OPIS_MWYD: result[7],
+    //       OPIS_RWYD: result[8],
+    //       ZKS_SYGNAT: result[9],
+    //       RKS_TEKST: result[0]
+    //     }
+    //   ]
 
-      //   // Found JavaScript at position 11, then
-      //   // Found javascript at position 33
+    //   //   // Found JavaScript at position 11, then
+    //   //   // Found javascript at position 33
 
-      // console.log(
-      //   "First 'ISBN' at: " +
-      //     /920\s*a([0-9]{1,5}\-[0-9]{1,7}[-\ ]{0,2}[0-9]{1,6}\-[0-9X]{1,6}-[0-9X]{1})[\s.]+/g.exec(
-      //       this.books
-      //     ) || '{}'
-      // )
-    }
+    //   // console.log(
+    //   //   "First 'ISBN' at: " +
+    //   //     /920\s*a([0-9]{1,5}\-[0-9]{1,7}[-\ ]{0,2}[0-9]{1,6}\-[0-9X]{1,6}-[0-9X]{1})[\s.]+/g.exec(
+    //   //       this.books
+    //   //     ) || '{}'
+    //   // )
+    // }
   }
 })
 </script>
