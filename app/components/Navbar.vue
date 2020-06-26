@@ -10,7 +10,7 @@
       <client-only>
         <b-navbar-nav>
           <b-nav-item>
-            <NuxtLink to="example" class="text-white">Kategorie</NuxtLink>
+            <NuxtLink to="/example" class="text-white">Kategorie</NuxtLink>
           </b-nav-item>
 
           <b-nav-item>
