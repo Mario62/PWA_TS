@@ -26,6 +26,9 @@
 - [Posts About Vue.js](https://alligator.io/vuejs/)
 - [Example interfaces](https://alligator.io/vuejs/using-typescript-with-vue/)
 - [TS Json](http://choly.ca/post/typescript-json/)
+- [Find object by id](https://stackoverflow.com/questions/7364150/find-object-by-id-in-an-array-of-javascript-objects)
+- [array-search-methods/](https://alligator.io/js/array-search-methods/)
+- https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/find
 ## Schemat bazy danych
 
 ![vue_crate_app](./docs/All.png)
@@ -88,6 +91,7 @@ https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
 
 - Store to pamiec nieulotna i init (local storage or server side)
 - validacja poprawności zapytań
+- Add sugestion if not exist in list
 
 - Team page
   https://localforage.github.io/localForage/

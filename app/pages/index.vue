@@ -4,7 +4,7 @@
       <!-- <logo /> -->
 
       <!-- <CardPlugin /> -->
-
+      <p>Dzień dobry, czy możemy znaleźć coś dla Ciebie?</p>
       <Moscicki color="K" />
       <div class="search">
         <Search />

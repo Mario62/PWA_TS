@@ -20,7 +20,7 @@
           href="https://jsonapi.org/examples/#error-objects-multiple-errors"
           target="_blank"
           >More Example API</a
-        >
+        >{{$store.state.slider}}
       </div>
     </div>
   </div>

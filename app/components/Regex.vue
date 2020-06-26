@@ -12,8 +12,8 @@
     </div>
     <!-- <b-table striped hover :items="items" :fields="fields"></b-table> -->
     <!-- <b-table :items="items" :fields="fields" :tbody-tr-class="rowClass"></b-table> -->
-    {{ book }}
-    {{ title }}
+    <!-- {{ book }} -->
+    <!-- {{ books }} -->
   </div>
 </template>
 
@@ -159,7 +159,7 @@ export default Vue.extend({
     },
     async asyncData({ params }) {
       const { data } = await axios.get('/02.2020.min.csv')
-      return { title: data }
+      return { books: data }
     }
     // initialize() {
     //   this.books = this.books + '1' // Should work now

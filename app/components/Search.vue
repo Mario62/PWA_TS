@@ -12,17 +12,18 @@
         type="text"
         ref="my_input"
         class="form-control"
-        value="example"
         placeholder="Search"
         aria-label="Search"
+        @keyup.enter.prevent="getFormValues"
       />
       <b-button @click.prevent="getFormValues" squared variant="success" class="ml-3">Szukaj</b-button>
     </b-form>
     <!-- Collapsible content -->
     <datalist id="searchlist">
-      <option>Manual Option</option>
-      <option v-for="sugestion in  $store.state.sugestions ">{{ sugestion }}</option>
+      <!-- <option>Manual Option</option> -->
+      <option v-for="sugestion in  $store.state.categories  " v-bind:key="sugestion">{{ sugestion }}</option>
     </datalist>
+    <!-- {{$store.state.sugestions}} -->
   </nav>
   <!--/.Navbar-->
 </template>
@@ -37,10 +38,9 @@ export default Vue.extend({
   components: {
     Regex
   },
-  data: function() {
+  asyncData: function() {
     return {
       sizes: 'dsaaa',
-
       output: ''
     }
   },
@@ -91,9 +91,6 @@ export default Vue.extend({
       this.$store.commit('increment')
       console.log(this.$store.state.count)
     }
-  },
-  mounted() {
-    // this.$store.state.count = 3
   }
 })
 </script>

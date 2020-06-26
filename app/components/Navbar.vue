@@ -3,30 +3,31 @@
     <b-navbar-brand>
       <NuxtLink to="/" class="homelink">M-Book</NuxtLink>
     </b-navbar-brand>
-    <!-- s<link rel="stylesheet" href="fonts/font-awesome.min.css" /> -->
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-navbar-toggle class="animated fadeIn" target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
-        <b-nav-item>
-          <NuxtLink to="example" class="text-white">Kategorie</NuxtLink>
-        </b-nav-item>
+      <client-only>
+        <b-navbar-nav>
+          <b-nav-item>
+            <NuxtLink to="example" class="text-white">Kategorie</NuxtLink>
+          </b-nav-item>
 
-        <b-nav-item>
-          <NuxtLink to="/our-team" class="text-white">Zespół</NuxtLink>
-        </b-nav-item>
-        <b-nav-item
-          href="https://www.zst-tarnow.pl/category/biblioteka/"
-          class="text-white"
-        >Biblioteka</b-nav-item>
+          <b-nav-item>
+            <NuxtLink to="/our-team" class="text-white">Zespół</NuxtLink>
+          </b-nav-item>
+          <b-nav-item
+            href="https://www.zst-tarnow.pl/category/biblioteka/"
+            class="text-white"
+          >Biblioteka</b-nav-item>
 
-        <b-nav-item href="https://github.com/Mario62/PWA_TS/tree/dev">
-          <b-badge variant="light">
-            <i class="fa fa-github" aria-hidden="true"></i> Alpha
-          </b-badge>
-        </b-nav-item>
-      </b-navbar-nav>
-
+          <b-nav-item href="https://github.com/Mario62/PWA_TS/tree/dev">
+            <b-badge variant="light">
+              <i class="fa fa-github" aria-hidden="true"></i> Alpha
+            </b-badge>
+          </b-nav-item>
+        </b-navbar-nav>
+      </client-only>
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <!-- <b-nav-form class="search"> -->
