@@ -49,11 +49,11 @@ export default {
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: { proxy: true, debug: true },
-  proxy: {
-    '/api/': 'http://api.example.com',
-    '/api2/': 'http://api.another-website.com'
-  },
+  // axios: { proxy: true, debug: true },
+  // proxy: {
+  //   '/api/': 'http://api.example.com',
+  //   '/api2/': 'http://api.another-website.com'
+  // },
   /*
    ** Build configuration
    */

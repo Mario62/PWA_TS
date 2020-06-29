@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export default () => ({
-  list: [],
+  books: null,
   counter: 111,
   websitedata: null,
   slider: null,
@@ -12,11 +12,40 @@ export default () => ({
     'Andrzej Sapkowski',
     'Edward Nowak'
   ],
-  nuxtServerInit({ dispatch }) {
-    console.warn(1)
-    dispatch('LOAD_WEBSITEDATA')
-    return Promise.resolve(dispatch('core/load'))
-  },
+  list: [
+    {
+      id: '14356',
+      author: 'Vetulani, Jerzy (1936-2017).',
+      title: 'Ćwiczenia duszy, rozciąganie mózgu',
+      publisher: 'Społeczny Instytut Wydawniczy ',
+      city: 'Kraków',
+      year: '2016',
+      category: 'religie'
+    },
+    {
+      id: '14366',
+      author: 'Lunde, Maja (1975- ).',
+      title: 'Historia pszczół',
+      publisher: 'Wydawnictwo Literackie',
+      city: 'Kraków',
+      year: '2017',
+      category: 'beletrystyka'
+    },
+    {
+      id: '14367',
+      author: 'Gumundur Andri Thorsson (1957- ).',
+      title: 'Miasteczko w Islandii',
+      publisher: 'Wielka Litera',
+      city: 'Warszawa',
+      year: 'copyright ',
+      category: 'beletrystyka'
+    }
+  ],
+  // nuxtServerInit({ dispatch }) {
+  //   console.warn(1)
+  //   dispatch('LOAD_WEBSITEDATA')
+  //   return Promise.resolve(dispatch('core/load'))
+  // },
   // actions: {
   //   nuxtServerInit({ commit }, { req }) {
   //     if ($store.state.list === []) {
@@ -1231,37 +1260,37 @@ export default () => ({
   // ]
 })
 
-export const actions = {
-  async nuxtServerInit({ dispatch }) {
-    console.warn(1)
-    dispatch('LOAD_WEBSITEDATA')
-    // return await dispatch('LOAD_SLIDER')
-  },
-  async LOAD_WEBSITEDATA({ commit }) {
-    // const data = await axios.get('api/v1/sugestions.json')
-    const data = axios.get('api/v1/sugestions.json')
-    // .then((res) => {
-    // console.warn(res.data)
-    // state.sugestions = res.data
-    // })
-    // .catch((error) => {
-    // console.warn(error)
-    // })
-    console.warn(2)
-    commit('SET_WEBSITEDATA', data)
-  },
+// export const actions = {
+// async nuxtServerInit({ dispatch }) {
+//   console.warn(1)
+//   dispatch('LOAD_WEBSITEDATA')
+//   // return await dispatch('LOAD_SLIDER')
+// },
+// async LOAD_WEBSITEDATA({ commit }) {
+//   // const data = await axios.get('api/v1/sugestions.json')
+//   const data = axios.get('api/v1/sugestions.json')
+//   // .then((res) => {
+//   // console.warn(res.data)
+//   // state.sugestions = res.data
+//   // })
+//   // .catch((error) => {
+//   // console.warn(error)
+//   // })
+//   console.warn(2)
+//   commit('SET_WEBSITEDATA', data)
+// },
 
-  async LOAD_SLIDER({ commit }) {
-    const data = await axios.get('api/v1/02.20.min.json')
-    commit('SET_SLIDER', data.data)
-    console.warn('commit SLIDER')
-  }
-}
-export const mutations = {
-  SET_WEBSITEDATA(state, data) {
-    state.websitedata = data
-  },
-  SET_SLIDER(state, slider) {
-    state.slider = slider
-  }
-}
+//   async LOAD_SLIDER({ commit }) {
+//     const data = await axios.get('api/v1/02.20.min.json')
+//     commit('SET_SLIDER', data.data)
+//     console.warn('commit SLIDER')
+//   }
+// }
+// export const mutations = {
+//   SET_WEBSITEDATA(state, data) {
+//     state.websitedata = data
+//   },
+//   SET_SLIDER(state, slider) {
+//     state.slider = slider
+//   }
+// }

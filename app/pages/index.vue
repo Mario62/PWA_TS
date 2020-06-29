@@ -9,6 +9,8 @@
       <div class="search">
         <Search />
       </div>
+
+      <books v-show="showBooks" />
       <!-- <h1 class="title">VueNuxte</h1> -->
       <!-- <h2 class="subtitle">My sublime Nuxt.js project</h2> -->
       <!-- <div class="links">
@@ -26,12 +28,12 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Logo from '~/components/Logo.vue'
+// import Logo from '~/components/Logo.vue'
 import Moscicki from '~/components/Moscicki.vue'
-import FileReader from '~/components/FileReader.vue'
+// import FileReader from '~/components/FileReader.vue'
 import Search from '~/components/Search.vue'
-import { CardPlugin, TablePlugin } from 'bootstrap-vue'
-
+// import { CardPlugin, TablePlugin } from 'bootstrap-vue'
+import Books from '~/components/Books.vue'
 // Add the plugins to Vue
 // Vue.use(CardPlugin)
 // Vue.use(TablePlugin)
@@ -41,14 +43,16 @@ export default Vue.extend({
   data: function() {
     return {
       text: '',
+      showBooks: false,
       users: [{ name: 'Arkadiusz' }, { name: 'Mariusz' }, { name: 'Piotr' }]
     }
   },
   components: {
-    Logo,
-    FileReader,
+    // Logo,
+    // FileReader,
     Moscicki,
-    Search
+    Search,
+    Books
   }
 })
 </script>
