@@ -11,9 +11,9 @@ export const mutations = {
 }
 export const actions = {
   async nuxtServerInit({ commit }) {
-    const { body } = await axios
-      .get('api/v1/2.20.min.json')
-      // .get('api/v1/06.2020.json')
+    const { body } = axios
+      .get('https://jsonplaceholder.typicode.com/posts')
+      // .get('http://127.0.0.1:3000/api/v1/4.json')
       .then((response) => response.json())
     // .catch(error) { console.warn(error)
     // }

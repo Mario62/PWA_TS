@@ -4,7 +4,10 @@
       <NuxtLink to="/" class="homelink">M-Book</NuxtLink>
     </b-navbar-brand>
 
-    <b-navbar-toggle class="animated fadeIn" target="nav-collapse"></b-navbar-toggle>
+    <b-navbar-toggle
+      class="animated fadeIn"
+      target="nav-collapse"
+    ></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <client-only>
@@ -16,10 +19,10 @@
           <b-nav-item>
             <NuxtLink to="/our-team" class="text-white">Zespół</NuxtLink>
           </b-nav-item>
-          <b-nav-item
+          <!-- <b-nav-item
             href="https://www.zst-tarnow.pl/category/biblioteka/"
             class="text-white"
-          >Biblioteka</b-nav-item>
+          >Biblioteka</b-nav-item> -->
 
           <b-nav-item href="https://github.com/Mario62/PWA_TS/tree/dev">
             <b-badge variant="light">
