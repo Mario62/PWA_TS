@@ -27,7 +27,7 @@
 import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
 import Moscicki from '~/components/Moscicki.vue'
-import Table from '~/components/Table.vue'
+// import Table from '~/components/Table.vue'
 import TempTable from '~/components/TempTable.vue'
 import Regex from '~/components/Regex.vue'
 import Categories from '~/components/Categories.vue'
@@ -36,7 +36,7 @@ export default Vue.extend({
   components: {
     Regex,
     Logo,
-    Table,
+    // Table,
     Moscicki,
     TempTable,
     Categories
