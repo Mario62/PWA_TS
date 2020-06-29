@@ -1,6 +1,7 @@
 <template>
   <div v-if="loading" class="loading-page">
     <p>Loading...</p>
+    <img src="~/assets/moscicki/B.svg" />
   </div>
 </template>
 
@@ -9,6 +10,13 @@ export default {
   data: () => ({
     loading: false
   }),
+  //   asyncData () {
+  //   return new Promise((resolve) => {
+  //     setTimeout(function () {
+  //       resolve({ name: 'world' })
+  //     }, 1000)
+  //   })
+  // },
   methods: {
     start() {
       this.loading = true
