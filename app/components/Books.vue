@@ -1,6 +1,7 @@
 <template>
   <div>
     <Table />
+    <!-- <Card /> -->
   </div>
 </template>
 

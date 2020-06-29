@@ -1,7 +1,17 @@
 import axios from 'axios'
 
 export default () => ({
-  books: null,
+  books: [
+    {
+      id: '14356',
+      author: 'Vetulani, Jerzy (1936-2017).',
+      title: 'Ćwiczenia duszy, rozciąganie mózgu',
+      publisher: 'Społeczny Instytut Wydawniczy ',
+      city: 'Kraków',
+      year: '2016',
+      category: 'religie'
+    }
+  ],
   counter: 111,
   websitedata: null,
   slider: null,

@@ -10,7 +10,8 @@
         <Search />
       </div>
 
-      <books v-show="showBooks" />
+      <books v-show="$store.state.books" />
+
       <!-- <h1 class="title">VueNuxte</h1> -->
       <!-- <h2 class="subtitle">My sublime Nuxt.js project</h2> -->
       <!-- <div class="links">
@@ -43,7 +44,7 @@ export default Vue.extend({
   data: function() {
     return {
       text: '',
-      showBooks: false,
+
       users: [{ name: 'Arkadiusz' }, { name: 'Mariusz' }, { name: 'Piotr' }]
     }
   },
