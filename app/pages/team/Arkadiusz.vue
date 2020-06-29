@@ -15,12 +15,15 @@
           class="button--grey"
           >GitHub</a
         >
-        <a href="/api/v1/two.json" target="_blank">Example API</a>
+        <a class="button--grey" href="/api/v1/two.json" target="_blank"
+          >Example API</a
+        >
         <a
+          class="button--grey"
           href="https://jsonapi.org/examples/#error-objects-multiple-errors"
           target="_blank"
           >More Example API</a
-        >{{$store.state.slider}}
+        >{{ $store.state.slider }}
       </div>
     </div>
   </div>
@@ -39,5 +42,4 @@ export default Vue.extend({
 })
 </script>
 
-<style>
-</style>
+<style></style>
