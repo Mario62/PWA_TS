@@ -6,7 +6,7 @@
 
     <!-- Collapsible content -->
 
-    <b-form inline display-flex>
+    <b-form inline display-flex v-on:submit.prevent="getFormValues">
       <input
         list="searchlist"
         type="text"
@@ -14,7 +14,6 @@
         class="form-control"
         placeholder="Autor, tytuł książki ..."
         aria-label="Search"
-        @keyup.enter.prevent="getFormValues"
       />
       <b-button @click.prevent="getFormValues" squared variant="success" class="ml-3">Szukaj</b-button>
     </b-form>
