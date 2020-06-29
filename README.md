@@ -86,6 +86,7 @@ https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
 ### TODO
 
 ###### FronEnd:
++ 
 
 - JEDNA WYSZUKAJKA
 - Podpowiedzi z vuex store
