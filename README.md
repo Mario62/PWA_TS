@@ -1,7 +1,7 @@
 # <a href="https://pwsz.jetbrains.space/p/nos/checklists">![Space_Icon](./docs/space_icon.svg)</a>[M-Book Project](https://pwsz.jetbrains.space/p/nos/checklists)
 
 [
-  ![Authors](docs/authors.png)
+![Authors](docs/authors.png)
 ](https://docs.google.com/document/d/1wINwCWPQtst-vIdEWe1Ug0ty0_JZGyYkeoQt_ZbO-8c/edit?usp=sharing)
 
 ### Koncept
@@ -12,7 +12,7 @@
 ### Projekty wzorcowe, pomoce naukowe, przydasie
 
 - Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
-- [Stackblitz Online Editor](https://stackblitz.com- )
+- [Stackblitz Online Editor](https://stackblitz.com-)
 - [Bootstrap-vue.org](https://bootstrap-vue.org/docs/components/badge)
 - [Passionate People](https://passionatepeople.io/#our-expertise)
 - [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/blob/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
@@ -22,34 +22,40 @@
   * [async-data](https://nuxtjs.org/guide/async-data)
   * [awesome-nux](https://github.com/nuxt-community/awesome-nux)
   * [nuxtServerInit](https://nuxtjs.org/guide/vuex-store/#the-nuxtserverinit-action)
-  + [25 min NuxtJS data, asyncData, fetch and nuxtServerInit](https://www.youtube.com/watch?v=NDVCquHbFIM)
+  - [25 min NuxtJS data, asyncData, fetch and nuxtServerInit](https://www.youtube.com/watch?v=NDVCquHbFIM)
 - [Posts About Vue.js](https://alligator.io/vuejs/)
 - [Example interfaces](https://alligator.io/vuejs/using-typescript-with-vue/)
 - [TS Json](http://choly.ca/post/typescript-json/)
 - [Find object by id](https://stackoverflow.com/questions/7364150/find-object-by-id-in-an-array-of-javascript-objects)
 - [array-search-methods/](https://alligator.io/js/array-search-methods/)
 - https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Array/find
+
 ## Schemat bazy danych
 
 ![vue_crate_app](./docs/All.png)
 
 ## RegExp
 
-> https://pythex.org
-> https://regex101.com
+> https://pythex.org > https://regex101.com
 
 ```r
     (3[12][0-9]{3}).+\\x22([A-Za-z]+.[a-zA-Z]+)\\x22
 ```
 
 > For notepad++ Szukany tekst
+
 ```ts
     ^(\d{1,6})\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\d]+)
+    ^(\d{1,6})\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\|]*)\|([^\d|\n|\r]+)
 ```
-   > zamień na
+
+> zamień na
+
 ```json
     {id:"$1",author:"$3",title:"$4",publisher:"$5",city:"$6",year:"$7",category:"$8" }\n
+    {id:"$1",author:"$3",title:"$4",publisher:"$5",city:"$6",year:"$7",categoryS:"$9" },
 ```
+
 > GIF here ....
 
 [StackOverflow przykład](https://stackoverflow.com/questions/2013124/regex-matching-up-to-the-first-occurrence-of-a-character)
@@ -60,7 +66,6 @@
 
 ![vue_crate_app](./docs/lint.png)
 
-
 ### Decyzje
 
 - https://vuetifyjs.com/en/getting-started/pre-made-layouts/ (nav or sied bar)
@@ -68,15 +73,15 @@
 
 https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
 
-
 ## GUI
 
 - https://mdbootstrap.com/docs/jquery/forms/search/
+
 ## Istotne katalogi app/:
 
-+ compotent
-+ page
-+ static
+- compotent
+- page
+- static
 
 ### TODO
 
@@ -95,4 +100,3 @@ https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
 
 - Team page
   https://localforage.github.io/localForage/
- 

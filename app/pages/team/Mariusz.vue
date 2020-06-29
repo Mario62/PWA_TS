@@ -7,8 +7,15 @@
         <h1 class="title">VueNuxt</h1>
         <h2 class="subtitle">My sublime Nuxt.js project</h2>
         <div class="links">
-          <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-          <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
+          <a href="https://nuxtjs.org/" target="_blank" class="button--green"
+            >Documentation</a
+          >
+          <a
+            href="https://github.com/nuxt/nuxt.js"
+            target="_blank"
+            class="button--grey"
+            >GitHub</a
+          >
         </div>
         <Categories />
       </div>
@@ -37,5 +44,4 @@ export default Vue.extend({
 })
 </script>
 
-<style>
-</style>
+<style></style>
