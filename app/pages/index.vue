@@ -4,11 +4,10 @@
       <!-- <logo /> -->
       <h5>Dzień dobry</h5>
       <h6>Czy możemy znaleźć coś dla Ciebie?</h6>
-      <Moscicki color="K" />
+      <Moscicki color="C" />
       <div class="search">
         <Search />
       </div>
-
       <books v-show="$store.state.books" />
     </div>
   </div>
@@ -27,7 +26,6 @@ export default Vue.extend({
   data: function() {
     return {
       text: '',
-
       users: [{ name: 'Arkadiusz' }, { name: 'Mariusz' }, { name: 'Piotr' }]
     }
   },

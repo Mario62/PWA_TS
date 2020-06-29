@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <!-- <div>
       <b-card-group deck>
         <b-card bg-variant="primary" text-variant="white" header="Primary" class="text-center">
           <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
@@ -44,7 +44,7 @@
           <b-card-text>{{i.author}}</b-card-text>
           <b-card-text>{{i.category}}</b-card-text>
         </b-card>
-      </b-card-group>
+      </b-card-group> -->
     </div>
 
     <!-- <b-card-group deck>

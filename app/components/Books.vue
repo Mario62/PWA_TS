@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Table />
+    <!-- <Table :items="$store.state.books" /> -->
     <!-- <Card /> -->
   </div>
 </template>
@@ -9,7 +9,7 @@
 import Vue from 'vue'
 import axios from 'axios'
 import Table from '~/components/Table.vue'
-// import Card from '~/components/Card.vue' // TODO
+import Card from '~/components/Card.vue'
 
 export default Vue.extend({
   components: {

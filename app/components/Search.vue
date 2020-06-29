@@ -16,22 +16,12 @@
         aria-label="Search"
         @keyup.enter.prevent="getFormValues"
       />
-      <b-button
-        @click.prevent="getFormValues"
-        squared
-        variant="success"
-        class="ml-3"
-        >Szukaj</b-button
-      >
+      <b-button @click.prevent="getFormValues" squared variant="success" class="ml-3">Szukaj</b-button>
     </b-form>
     <!-- Collapsible content -->
     <datalist id="searchlist">
       <!-- <option>Manual Option</option> -->
-      <option
-        v-for="sugestion in $store.state.categories"
-        v-bind:key="sugestion"
-        >{{ sugestion }}</option
-      >
+      <option v-for="sugestion in $store.state.categories" v-bind:key="sugestion">{{ sugestion }}</option>
     </datalist>
 
     <!-- {{$store.state.sugestions}} -->

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-table striped hover :items="$store.state.books"></b-table>
+    <b-table striped hover items></b-table>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   asyncdata() {
     return {
-      items: $store.state.books
+      items: []
       // items: [
       //   { age: 40, first_name: 'Dickerson', last_name: 'Macdonald' },
       //   { age: 21, first_name: 'Larsen', last_name: 'Shaw' },
