@@ -72,14 +72,23 @@ export default Vue.extend({
       e.target.value = ''
       let locallist = this.$store.state.list
       locallist.forEach((element) => {
-        console.log(element.author)
+        //console.log(element.author)
         //if(this.$refs.my_input.value ==)
 
-        console.log(length)
+        //console.log(length)
         for (let i = 0; i < element.author.length - text.length; i++) {
           if (text == element.author.slice(i, text.length + i)) {
-            this.$store.commit('addBooks', { element })
+            this.$store.commit('addBooks', {
+              id: element.id,
+              author: element.author,
+              title: element.title,
+              publisher: element.publisher,
+              city: element.city,
+              year: element.year,
+              category: element.category
+            })
             console.log('We are the champions! ')
+            break
           }
         }
       })
