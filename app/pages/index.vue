@@ -2,33 +2,21 @@
   <div class="container">
     <div>
       <!-- <logo /> -->
-
-      <!-- <CardPlugin /> -->
-      <p>Dzień dobry, czy możemy znaleźć coś dla Ciebie?</p>
+      <h5>Dzień dobry</h5>
+      <h6>Czy możemy znaleźć coś dla Ciebie?</h6>
       <Moscicki color="K" />
       <div class="search">
         <Search />
       </div>
 
       <books v-show="showBooks" />
-      <!-- <h1 class="title">VueNuxte</h1> -->
-      <!-- <h2 class="subtitle">My sublime Nuxt.js project</h2> -->
-      <!-- <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-        
-      </div>-->
-
-      <!-- <textarea rows="10" v-model="text"></textarea> -->
-      <br />
-      <!-- <text-reader @load="text = $event"></text-reader> -->
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-// import Logo from '~/components/Logo.vue'
+import Logo from '~/components/Logo.vue'
 import Moscicki from '~/components/Moscicki.vue'
 // import FileReader from '~/components/FileReader.vue'
 import Search from '~/components/Search.vue'
@@ -48,7 +36,7 @@ export default Vue.extend({
     }
   },
   components: {
-    // Logo,
+    Logo,
     // FileReader,
     Moscicki,
     Search,

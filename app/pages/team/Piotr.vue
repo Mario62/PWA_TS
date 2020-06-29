@@ -11,8 +11,7 @@
       <br />
       <NLink to="/">Home Page</NLink>
 
-      <b-spinner type="grow" label="Loading..."></b-spinner>
-      async: {{project}}
+      async: {{ project }}
       <!-- <search /> -->
       <card />
       <client-only placeholder="Loading...">
@@ -80,5 +79,4 @@ export default Vue.extend({
 })
 </script>
 
-<style>
-</style>
+<style></style>

@@ -1,7 +1,8 @@
 <template>
   <div v-if="loading" class="loading-page">
+    <img class="svg" src="~/assets/moscicki/B.svg" />
     <p>Loading...</p>
-    <img src="~/assets/moscicki/B.svg" />
+    <b-spinner type="grow" label="Loading..."></b-spinner>
   </div>
 </template>
 
@@ -40,5 +41,9 @@ export default {
   padding-top: 200px;
   font-size: 30px;
   font-family: sans-serif;
+}
+
+.svg {
+  max-width: 80vh;
 }
 </style>
