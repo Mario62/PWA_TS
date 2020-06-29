@@ -1,41 +1,15 @@
 <template>
   <div class="container">
-
     <div>
-      <logo />
-      
-      <div>
-        <div v-if="$nuxt.isOffline">You are offline</div> 
-        <div v-if="$nuxt.isOnline">You are Online</div> 
-<<<<<<< HEAD
-        
-        <nuxt-link to="/">Home page</nuxt-link>
-        <nuxt-link to="/team/Piotr">Piotr</nuxt-link>
+      <!-- <logo /> -->
+      <h5>Dzień dobry</h5>
+      <h6>Czy możemy znaleźć coś dla Ciebie?</h6>
+      <Moscicki color="K" />
+      <div class="search">
+        <Search />
       </div>
 
-=======
-
-        <!-- <nuxt-link to="/">Home Page</nuxt-link>          -->
-        <nuxt-link v-for="user in users" v-bind:key="user.name"
-                   :to="'team/' + user.name"> 
-          {{ user.name }}
-        </nuxt-link>
-      </div>
-      <CardPlugin />
-      
->>>>>>> Mariusz
-      <Moscicki color="K"/>
-      <h1 class="title">VueNuxte</h1>
-      <h2 class="subtitle">My sublime Nuxt.js project</h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
-
-       <!-- <textarea rows="10" v-model="text"></textarea> -->
-    <br>
-    <!-- <text-reader @load="text = $event"></text-reader> -->
-
+      <books v-show="$store.state.books" />
     </div>
   </div>
 </template>
@@ -44,43 +18,40 @@
 import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
 import Moscicki from '~/components/Moscicki.vue'
-import FileReader from '~/components/FileReader.vue'
-<<<<<<< HEAD
-=======
-import { CardPlugin, TablePlugin } from 'bootstrap-vue'
-
-// Add the plugins to Vue
-Vue.use(CardPlugin)
-Vue.use(TablePlugin)
->>>>>>> Mariusz
+import Search from '~/components/Search.vue'
+// import { CardPlugin, TablePlugin } from 'bootstrap-vue'
+import Books from '~/components/Books.vue'
 
 export default Vue.extend({
-   data: function () {
+  layout: 'intro',
+  data: function() {
     return {
-<<<<<<< HEAD
-      text: "" 
-=======
-      text: "",
-      users: [
-        { name: "Arkadiusz" },
-        { name: "Mariusz" },
-        { name: "Piotr" }  
-      ]
->>>>>>> Mariusz
+      text: '',
+
+      users: [{ name: 'Arkadiusz' }, { name: 'Mariusz' }, { name: 'Piotr' }]
     }
   },
   components: {
     Logo,
-    FileReader,
-    Moscicki
+    // FileReader,
+    Moscicki,
+    Search,
+    Books
   }
 })
 </script>
 
 <style>
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  padding: 10vh;
+  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
