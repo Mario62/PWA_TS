@@ -12,7 +12,7 @@
         type="text"
         ref="my_input"
         class="form-control"
-        placeholder="Search"
+        placeholder="Autor, tytuł książki ..."
         aria-label="Search"
         @keyup.enter.prevent="getFormValues"
       />

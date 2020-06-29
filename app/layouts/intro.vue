@@ -6,10 +6,9 @@
   </div>
 </template>
 <script lang="ts">
-
 import Vue from 'vue'
-import Footer from '~/components/Footer.vue'
 import Navbar from '~/components/Navbar.vue'
+import Footer from '~/components/Footer.vue'
 // import { store } from '~/store/index'
 
 export default Vue.extend({
@@ -31,17 +30,13 @@ export default Vue.extend({
     // alert(Regex.getRandom)
     //   // alert(message)
     // },
-    
   },
-  mounted() {
-  }
+  mounted() {}
 })
 </script>
 <style>
-
-
 .box {
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   margin: 0 auto;
   min-height: 100vh;
   /* display: flex; */
@@ -99,11 +94,11 @@ html {
 
 .homelink:hover {
   color: #fff;
-      text-decoration: none;
+  text-decoration: none;
 }
 
 .homelink:visited {
   color: #fff;
-      text-decoration: none;
+  text-decoration: none;
 }
 </style>
