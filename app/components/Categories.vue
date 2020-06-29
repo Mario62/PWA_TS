@@ -4,7 +4,7 @@
     <b-button @click.prevent="countCat">Odśwież</b-button>
     <b-table striped hover :items="$store.state.categories"></b-table>
     <!-- {{items}} -->
-    {{$store.state.categories}}
+    {{ $store.state.categories }}
   </div>
 </template>
 
@@ -93,5 +93,4 @@ export default Vue.extend({
 })
 </script>
 
-<style>
-</style>
+<style></style>
