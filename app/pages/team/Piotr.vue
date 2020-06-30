@@ -10,7 +10,6 @@
       <img src="/C.jpg" alt="static image" style="max-width:30vh" />
       <br />
       <NLink to="/">Home Page</NLink>
-
       async: {{ project }}
       <!-- <search /> -->
       <card />
@@ -18,7 +17,7 @@
         <!-- <books /> -->
         <!-- <reg /> -->
       </client-only>
-
+      <loading />
       <!-- <div class="container"> -->
       <!-- <h2>Users</h2>
     <ul class="users">
@@ -42,6 +41,7 @@ import Search from '~/components/Search.vue'
 import Reg from '~/components/Reg.vue'
 import Books from '~/components/Books.vue'
 import Card from '~/components/Card.vue'
+import loading from '~/components/loading.vue'
 import { mapState } from 'vuex'
 
 export default Vue.extend({
@@ -52,7 +52,8 @@ export default Vue.extend({
     Logo,
     Reg,
     Books,
-    Card
+    Card,
+    loading
   },
   fetch({ store }) {
     store.commit('increment')

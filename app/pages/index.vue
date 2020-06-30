@@ -30,6 +30,14 @@ export default Vue.extend({
       users: [{ name: 'Arkadiusz' }, { name: 'Mariusz' }, { name: 'Piotr' }]
     }
   },
+  asyncData() {
+    // wymuszenie loading
+    return new Promise((resolve) => {
+      setTimeout(function() {
+        resolve({ name: 'world' })
+      }, 500)
+    })
+  },
   components: {
     Logo,
     // FileReader,
