@@ -103,5 +103,5 @@ Dla Patryka:
 
 - utworzenie branch-a imiennego z dev-a i init commit
 - Podpowiedzi do wyszukiwarki z wykorzystaniem Odległości Levenshteina 
-  ![example_for_Patryk](docs\searchPatryk.png)
+  ![example_for_Patryk](./docs/searchPatryk.png)
 - Dark layout (FRONTEND)
