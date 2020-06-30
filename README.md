@@ -99,8 +99,7 @@ https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
 - Team page
   https://localforage.github.io/localForage/
 
-
-  Dla Patryka:
+Dla Patryka:
 
 - utworzenie branch-a imiennego z dev-a i init commit
 - Podpowiedzi do wyszukiwarki z wykorzystaniem Odległości Levenshteina 
