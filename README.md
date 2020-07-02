@@ -86,12 +86,9 @@ https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
 ### TODO
 
 ###### FronEnd:
-+ 
 
-- JEDNA WYSZUKAJKA
-- Podpowiedzi z vuex store
-- Mutacja
-- Zapis do store (przez mutację)
+- Poprawa wyszukiwania (Ma wywszukiwać wszystkie pasujące rekordy)
+- Zapobieganie redundancji
 
 ##### Backend
 
@@ -101,3 +98,10 @@ https://bootstrap-vue.org/docs/reference/starter-templates (global compotent)
 
 - Team page
   https://localforage.github.io/localForage/
+
+Dla Patryka:
+
+- utworzenie branch-a imiennego z dev-a i init commit
+- Podpowiedzi do wyszukiwarki z wykorzystaniem Odległości Levenshteina 
+  ![example_for_Patryk](./docs/searchPatryk.png)
+- Dark layout (FRONTEND)
