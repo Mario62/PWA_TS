@@ -1,6 +1,9 @@
 <template>
   <div v-if="loading" class="loading-page">
-    <img class="svg" src="~/assets/moscicki/B (1).svg" />
+    <!-- <img class="svg" src="~/assets/moscicki/Bez nazwy-1.svg" /> -->
+    <!-- <img class="svg" src="~/assets/moscicki/bg.svg" />
+    <img class src="~/assets/moscicki/fg.svg" />
+    <img class src="~/assets/moscicki/fgb.svg" />-->
     <!-- <p>Loading...</p> -->
     <h3 class="text-white">
       <!-- M-Book -->

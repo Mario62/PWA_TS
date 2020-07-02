@@ -1,7 +1,9 @@
 <template>
   <div class="box">
-    <navbar />
+    <Navbar />
+    <main>
     <nuxt />
+    </main>
     <Footer />
   </div>
 </template>
@@ -12,6 +14,16 @@ import Footer from '~/components/Footer.vue'
 // import { store } from '~/store/index'
 
 export default Vue.extend({
+   head: {
+    meta: [
+      { name: 'viewport', content: 'initial-scale=1.0, width=device-width' }
+    ],
+    link: [
+     { rel: 'icon', type: 'image/x-icon', href: 'https://nuxtjs.org/favicon.ico' },
+     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' },
+     { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' }
+    ]
+  },
   components: {
     Navbar,
     Footer
@@ -100,5 +112,9 @@ html {
 .homelink:visited {
   color: #fff;
   text-decoration: none;
+}
+
+main {
+  min-height: calc( 100vh - 144px );
 }
 </style>
