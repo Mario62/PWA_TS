@@ -7,7 +7,7 @@
       <Moscicki color="K" />
       <!-- <TempTable /> -->
       <!-- <i class="fa fa-github" aria-hidden="true"></i> -->
-
+<loading />
       <!-- <table /> -->
       <regex />
       <!-- <h1 class="title">VueNuxte</h1> -->
@@ -34,6 +34,7 @@ import Search from '~/components/Search.vue'
 import Table from '~/components/Table.vue'
 import TempTable from '~/components/TempTable.vue'
 import Regex from '~/components/Regex.vue'
+import Loading from '~/components/Loading.vue'
 import { CardPlugin, TablePlugin } from 'bootstrap-vue'
 
 // Add the plugins to Vue
@@ -54,6 +55,7 @@ export default Vue.extend({
     Moscicki,
     Search,
     // Table,
+    Loading,
     TempTable,
     Regex
   }
