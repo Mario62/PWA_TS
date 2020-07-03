@@ -53,7 +53,7 @@ export default Vue.extend({
     FileReader,
     Moscicki,
     Search,
-    Table,
+    // Table,
     TempTable,
     Regex
   }

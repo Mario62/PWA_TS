@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <Table :items="$store.state.books" /> -->
+    <Table :items="$store.state.books" />
     <!-- <Card /> -->
   </div>
 </template>

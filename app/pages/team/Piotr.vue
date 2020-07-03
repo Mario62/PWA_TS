@@ -18,6 +18,9 @@
         <!-- <reg /> -->
       </client-only>
       <loading />
+       <div v-show="$nuxt.$loading.get() > 0">
+      {{loadingIndicator}}%
+    </div>
       <!-- <div class="container"> -->
       <!-- <h2>Users</h2>
     <ul class="users">
@@ -74,7 +77,7 @@ export default Vue.extend({
     return new Promise((resolve) => {
       setTimeout(function() {
         resolve({ name: 'world' })
-      }, 1000)
+      }, 10000)
     })
   }
 })

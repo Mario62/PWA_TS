@@ -1,13 +1,11 @@
 <template>
   <div class="container">
     <div>
-      <logo />
+      <!-- <logo /> -->
       <h5>Dzień dobry</h5>
       <h6>Czy możemy znaleźć coś dla Ciebie?</h6>
-      <Moscicki color="C" />
-      <div class="search">
-        <Search />
-      </div>
+      <!-- <Moscicki color="C" /> -->
+      <Search class="m-3" :examples="exa" />
       <books v-show="$store.state.books" />
     </div>
     <!-- <Regex /> -->
@@ -27,6 +25,7 @@ export default Vue.extend({
   data: function() {
     return {
       text: '',
+      exa: 'Ignacy Mościcki',
       users: [{ name: 'Arkadiusz' }, { name: 'Mariusz' }, { name: 'Piotr' }]
     }
   },

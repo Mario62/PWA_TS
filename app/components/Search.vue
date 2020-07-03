@@ -1,11 +1,10 @@
 <template>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark indigo">
+  <div>
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark indigo"> -->
     <!-- Navbar brand -->
     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-
     <!-- Collapsible content -->
-
     <b-form inline display-flex v-on:submit.prevent="getFormValues">
       <input
         list="searchlist"
@@ -15,7 +14,8 @@
         placeholder="Autor, tytuł książki ..."
         aria-label="Search"
       />
-      <b-button @click.prevent="getFormValues" squared variant="success" class="ml-3">Szukaj</b-button>
+      <b-button @click.prevent="getFormValues" squared variant="success" class="ml-3"><span class="hidden-phone">Szukaj</span> <i class="fa fa-search active" aria-hidden="true"></i></b-button>
+      <b-button @click.prevent="getFormValues" squared variant="primary" class="ml-3"><span class="hidden-phone"><i class="fa fa-send-o active" aria-hidden="true"></i> Losuj książkę</span></b-button>
     </b-form>
     <!-- Collapsible content -->
     <datalist id="searchlist">
@@ -23,8 +23,13 @@
       <option v-for="sugestion in $store.state.categories" v-bind:key="sugestion">{{ sugestion }}</option>
     </datalist>
 
+    <div v-if="!examples">
+    <p>Przykłady</p>
+       <tt> {{ examples }}</tt>
+    </div>
+</div>
     <!-- {{$store.state.sugestions}} -->
-  </nav>
+  <!-- </nav> -->
   <!--/.Navbar-->
 </template>
 
@@ -38,11 +43,12 @@ export default Vue.extend({
   components: {
     Regex
   },
-  asyncData: function() {
+  data() {
     return {
       sizes: 'dsaaa',
       output: '',
-      inputText: 'test'
+      inputText: 'test',
+      examples: 'eee'
     }
   },
   methods: {
@@ -90,9 +96,9 @@ export default Vue.extend({
 
       let txtIn = text.toUpperCase()
       let sygnatura = this.$store.state.categories
-      let podpowiedzi = []
+      let podpowiedzi : string[] = []
 
-      sygnatura.forEach((element) => {
+      sygnatura.forEach((element:string) => {
         let el = element.toUpperCase()
 
         if (el.indexOf(txtIn) > 0) podpowiedzi.push(element)
@@ -172,4 +178,38 @@ export default Vue.extend({
 })
 </script>
 
-<style></style>
+<style>
+
+input[type="text"]:not(.browser-default):focus:not([readonly]), .md-form input[type="password"]:not(.browser-default):focus:not([readonly]), .md-form input[type="email"]:not(.browser-default):focus:not([readonly]), .md-form input[type="url"]:not(.browser-default):focus:not([readonly]), .md-form input[type="time"]:not(.browser-default):focus:not([readonly]), .md-form input[type="date"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), .md-form input[type="tel"]:not(.browser-default):focus:not([readonly]), .md-form input[type="number"]:not(.browser-default):focus:not([readonly]), .md-form input[type="search"]:not(.browser-default):focus:not([readonly]), .md-form input[type="phone"]:not(.browser-default):focus:not([readonly]), .md-form input[type="search-md"]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #4285f4;
+    -webkit-box-shadow: 0 1px 0 0 #4285f4;
+    box-shadow: 0 1px 0 0 #4285f4;
+}
+input:not([type]), input[type="text"]:not(.browser-default), input[type="password"]:not(.browser-default) {
+      -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan input.form-control[type=text] {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan .fa, .active-cyan-2 .fa {
+  color: #4dd0e1;
+}
+</style>
