@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>
+    <div class="text-white">
       <!-- <logo /> -->
       <h5>Dzień dobry</h5>
       <h6>Czy możemy znaleźć coś dla Ciebie?</h6>

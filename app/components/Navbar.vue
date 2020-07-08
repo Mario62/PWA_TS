@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" variant="info">
+  <b-navbar class="navbar-main" toggleable="lg" type="dark">
     <b-navbar-brand>
       <NuxtLink to="/" class="homelink">M-Book</NuxtLink>
     </b-navbar-brand>
@@ -60,5 +60,8 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.navbar-main {
+  background-color: var(--purple-100);
 }
 </style>

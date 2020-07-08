@@ -1,8 +1,8 @@
 <template>
   <div>
     <div>
-      <div v-if="$nuxt.isOffline">You are offline</div>
-      <div v-if="$nuxt.isOnline">You are Online</div>
+      <div v-if="$nuxt.isOffline" class="text-white">You are offline</div>
+      <div v-if="$nuxt.isOnline" class="text-white">You are Online</div>
 
       <!-- <nuxt-link to="/">Home Page</nuxt-link>          -->
       <nuxt-link v-for="user in users" v-bind:key="user.name" :to="'team/'+user.name">

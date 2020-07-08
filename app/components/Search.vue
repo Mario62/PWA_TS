@@ -1,6 +1,6 @@
 <template>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark indigo">
+  <nav class="navbar navbar-expand-lg">
     <!-- Navbar brand -->
     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
 

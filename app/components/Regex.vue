@@ -8,7 +8,7 @@
     title:{{title}}-->
     <!-- <p>I see {{ totalBooksCount }} TVs!</p> -->
     <div>
-      <b-table striped hover :items="items"></b-table>
+      <b-table striped hover :items="items" class="text-white"></b-table>
     </div>
     <!-- <b-table striped hover :items="items" :fields="fields"></b-table> -->
     <!-- <b-table :items="items" :fields="fields" :tbody-tr-class="rowClass"></b-table> -->

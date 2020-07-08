@@ -2,7 +2,7 @@
   <div>
     <!-- {{$store.state.categories}} -->
     <b-button @click.prevent="countCat">Odśwież</b-button>
-    <b-table striped hover :items="$store.state.categories"></b-table>
+    <b-table striped hover :items="$store.state.categories" class="text-white"></b-table>
     <!-- {{items}} -->
     {{ $store.state.categories }}
   </div>

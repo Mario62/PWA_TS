@@ -1,6 +1,6 @@
 <template>
   <!-- Footer -->
-  <div class="page-footer font-small blue ">
+  <div class="page-footer font-small">
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3 text-white">
       <!-- M-Book -->
@@ -68,5 +68,9 @@ section {
 }
 footer {
   display: block;
+}
+
+.page-footer {
+  background-color: var(--purple-100);
 }
 </style>

@@ -35,8 +35,17 @@ export default Vue.extend({
 })
 </script>
 <style>
+:root {
+  --dark: #282828;
+  --purple-50: #4600d3;
+  --purple-100: #3500D3;
+  --purple-200: #240090;
+  --purple-300: #190061;
+  --purple-400: #0C0032;
+}
+
 .box {
-  background-color: antiquewhite;
+  background-color: var(--dark);
   margin: 0 auto;
   min-height: 100vh;
   /* display: flex; */
