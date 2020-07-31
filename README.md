@@ -9,7 +9,7 @@
 - Baza Tytułów Książek (ok. 10 MB) jest przechowywana lokalnie
 - Aplikacja PWA umożliwia w pełni wyszukiwanie książek offline (po pierwszym pobraniu bazy oczywiście) :smirk: :innocent:
 
-### Projekty wzorcowe, pomoce naukowe, przydasie
+### Referencje
 
 - Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 - [Stackblitz Online Editor](https://stackblitz.com-)
