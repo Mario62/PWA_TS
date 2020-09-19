@@ -13,7 +13,7 @@
 
 - Pierwsza iteracja [projektu](https://github.com/informacja/szukaj) [**Katalogu ZST**](https://katalog.zst-tarnow.pl) - strona internetowa (like OPAC)
 - [A Vue 3 Learning Path](https://www.vuemastery.com/blog/vue-3-learning-path/?utm_source=newsletter&utm_medium=email&utm_campaign=vue_3_is_out_heres_how_you_can_use_it_right_now&utm_term=2020-09-18)
-- [Stackblitz Online Editor](https://stackblitz.com-)
+- [Stackblitz Online Editor](https://stackblitz.com)
 - [Bootstrap-vue.org](https://bootstrap-vue.org/docs/components/badge)
 - [Passionate People](https://passionatepeople.io/#our-expertise)
 - [Nuxt Cheat Sheet](https://github.com/Mario62/PWA_TS/blob/dev/docs/Nuxtjs-Cheat-Sheet.pdf)
